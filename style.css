@@ -1,0 +1,295 @@
+body {
+    font-family: 'Montserrat';
+}
+
+  .navigation-bar{
+    background-image: url(images/navimage/Menu-header.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    .navbar-brand {
+      margin-right: 0;
+      padding: 0 3rem;
+    }
+    .hero div {
+      width: 50%;
+    }
+    .about-us {
+      width: 85%;
+    }
+    .contact {
+      max-width: 50%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 0.5rem 2rem;
+    }
+    .container {
+      width: 80%;
+    }
+  }
+  .s1{
+    text-align: center;
+  }
+   .s2, .s3{
+    text-align: right;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: #d9b17a;
+  }
+
+  .carousel-item img{
+width: 100%;
+  }
+  /* My css */
+.readmore{
+    border: 1px solid red;
+    border-radius: 25px;
+    color: red;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px 20px;
+    margin: 10px 0 20px;
+    font-weight: 700;
+}  
+.readmore:hover{
+    color: #fff;
+    background-image: url(images/navimage/button-bg-2.webp);
+}
+
+.productcard{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform .9s;
+
+    /* padding: 25px; */
+}
+
+.productcard:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+.card-title{
+    margin: 15px 0px;
+    height: 45px;
+    font-weight: 700;
+}
+.card-text-CTA{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.card-text:last-child {
+    height: 160px;
+    padding: 5px 25px;
+    text-align: justify;
+}
+.OurProducts h4{
+text-align: left;
+margin: 30px 0 10px;
+}
+.two-products{
+    justify-content: center;
+    margin-top: 15px;
+}
+.why-us-icon-bg{
+    border-radius: 50%;
+    transition: transform .9s;
+}
+
+.why-us-icon-bg:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+.why-us{
+    position: relative;
+} 
+.why-us div{
+    position: absolute; 
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.why-us p{
+    margin: 15px;
+}
+
+.bg-why-us{
+    background-color: #dad9d9 !important
+}
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 60px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.inquire-now{
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background-color: #d2ad77;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 20px;
+    width: 40%;
+    margin: auto;
+    transition: transform .9s;
+}
+
+
+.inquire-now:hover{
+    color: #fff;
+    background-image: url(images/navimage/button-bg-2.webp);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+
+}
+
+.enq-form{
+    margin: 15px 0;
+}
+.contact-us{
+    padding: 60px auto;
+    background-color: #fff;
+}
+.contact-us-one{
+    padding: 31px;
+}
+.contact-us-two{
+    padding: 31px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.applications{
+    margin-bottom: 38px;
+}
+.product-hero{
+    position:relative ;
+}
+
+.product-hero-text{
+    position: absolute; 
+    top: 40%; 
+    left:38%; transform: translate(-50%, -50%);
+}
+.features{
+    text-align: center;
+    padding: 80px 0; 
+    background-image: url(https://crushersagarwalla.com/wp-content/uploads/2022/10/Mask-Group-2-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.features-text .features-text-div{
+    display: flex; 
+    text-align: left;
+}
+.features-text-div .image-div{
+    display: flex; 
+    margin-top: 17px;
+}
+.text-div{
+    margin: 12px; 
+}
+
+.features-image-div{
+    display: flex;
+}
+.features-image{
+    margin: auto;
+}
+
+.image-gallery, .table-data{
+    margin: 80px 80px;
+    text-align: center;
+}
+.image-gallery h1, .table-data h1{
+    margin: 20px;
+}
+
+
+/* table */
+.tab-heading{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    background-color: #d2ad77;
+    padding: 10px 15px 10px 15px;
+    color: #000;
+}
+
+.tab-data{
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+.even-col{
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    background: #EFEFEF;
+    border: 1px solid rgba(222, 219, 219, 0.37);
+}
+
+.tablesaw{
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    overflow-x: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* About us */
+
+.about-us{
+    text-align: center; 
+    margin: 50px auto;
+}
+.about-us h5 span{
+    color: #e41e26;
+    font-weight: 700;
+}
+
+.logo-icon{
+    height: 20px; 
+    width: 20px; 
+    top: 20px
+}
+
+.call-email{
+    margin: 0px 60px;
+}
+
+.OurProducts h2{
+    margin-bottom: 20px;
+}
+
+
+.Applications::before {
+    position: absolute;
+    padding: 42rem 156px;
+    left: 20px;
+    margin-left: -268px;
+    margin-top: -105px;
+    background-image: url(images/Favicon-01.webp);
+    content: "";
+    width: 100%;
+    height: 530px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 470px;
+    opacity: 0.2;
+}
