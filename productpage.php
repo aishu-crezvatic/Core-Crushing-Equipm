@@ -1,3 +1,47 @@
+
+<?php
+// Include necessary files
+include 'header.php';
+include 'data2.php';
+
+// Get the id parameter from the URL
+$id = isset($_GET['id']) ? $_GET['id'] : null;
+
+// Define empty values if $id is not set or not valid
+if (!isset($Prod_Banner[$id])) {
+    $Prod_Banner[$id] = [
+        'image' => '',
+        'title' => '',
+        'subtitle' => '',
+        'description' => ''
+    ];
+}
+
+if (!isset($successInEveryHardness[$id])) {
+    $successInEveryHardness[$id] = [
+        'h1' => '',
+        'd1' => '',
+        // Repeat for other elements...
+    ];
+}
+
+if (!isset($table_data[$id])) {
+    $table_data[$id] = [
+        'modal1' => '',
+        'modal2' => '',
+        'modal3' => '',
+        'modal1_data_1' => '',
+        'modal2_data_1' => '',
+        'modal3_data_1' => '',
+        'modal1_data_2' => '',
+        'modal2_data_2' => '',
+        'modal3_data_2' => '',
+        'modal1_data_3' => '',
+        'modal2_data_3' => '',
+        'modal3_data_3' => '',
+    ];
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,14 +52,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <!-- header -->
-    <?php include 'header.php'; ?>
-    <?php include 'data2.php'; ?>
-    <?php
-    $id = $_GET['id'];  //Output: myquery
-
-    ?>
+  <div class="container-fluid"> 
 
 
     <div class="product-hero">
@@ -273,21 +310,7 @@
 
     <!-- cta -->
 
-    <div class="row cta">
-      <div class="col-md-6">
-        <div style="text-align: center; align-item: center ">
-          <h3 class="">With supporting text below</h3>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <button href="#" class="btn inquire-now">Inquire Now</button>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <img src="https://dummyimage.com/600x300/d2ad77/ffffff&text=cta" class="d-block w-100" alt="..." />
-      </div>
-    </div>
+    <?php include 'cta.php'; ?>
 
     <a href="https://api.whatsapp.com/send?phone=8806267888&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
       <i class="fa-brands fa-whatsapp my-float"></i>

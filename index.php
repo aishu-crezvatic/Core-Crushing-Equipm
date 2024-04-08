@@ -281,8 +281,8 @@ define("BASEURL", "http://localhost/coreCrushing/");
         <img src="images/CTAImage.webp" class="d-block w-100" alt="..." />
       </div>
     </div> -->
-
-  <div class="container-fluid">
+    <?php include 'cta.php'; ?>
+  <!-- <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 mobile-custom-space ">
         <div style="text-align: center; ">
@@ -300,7 +300,7 @@ define("BASEURL", "http://localhost/coreCrushing/");
         <img src="images/CTAImage.webp" class="d-block w-100" alt="..." />
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">

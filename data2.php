@@ -13,7 +13,7 @@
                 'subtitle' => "OUR JAW CRUSHERS ARE ROBUST CRUSHERS22",
                 'description' => 'They are designed to process hard-blasted rocks in quarrying and different ores in mining applications. Our Jaw has a 42 x 30 inch opening taking up to (-600mm) feed size and can operate at throughputs ranging from 120 TPH to 400 TPH. Our unique pitman and crushing chamber design enables the Jaw to seamlessly operate at multiple CSS values and crush materials to yield as low as (-120mm) output size.'
             ),
-            '1' => array('image' => "images/product-banner/Sand-Plant-2 copy.webp", 'title' => "Product name2", 'description' => 'They are designed to process hard-blasted rocks in quarrying and different ores in mining applications. Our Jaw has a 42 x 30 inch opening taking up to (-600mm) feed size and can operate at throughputs ranging from 120 TPH to 400 TPH. Our unique pitman and crushing chamber design enables the Jaw to seamlessly operate at multiple CSS values and crush materials to yield as low as (-120mm) output size.'),
+            '1' => array('image' => "images/product-banner/Sand-Plant-2 copy.webp", 'title' => "Cone Crushers ", 'description' => 'They are designed to process hard-blasted rocks in quarrying and different ores in mining applications. Our Jaw has a 42 x 30 inch opening taking up to (-600mm) feed size and can operate at throughputs ranging from 120 TPH to 400 TPH. Our unique pitman and crushing chamber design enables the Jaw to seamlessly operate at multiple CSS values and crush materials to yield as low as (-120mm) output size.'),
             '2' => array('image' => "images/product-banner/HFS.webp", 'title' => "SANDER CONE",  'subtitle' => "SPECIALLY DESIGNED TO MAXIMIZE SAND PRODUCTION.
             ", 'description' => 'Fine cones can take throughputs of 200 TPH of (-40mm) feed producing (-20mm) or smaller material. The design can be optimized to produce more than 70 - 80 TPH sand (-4.75mm) with a nominal production of ultrafine (-150 microns). The crushing chamber design is equipped to produce less flaky and well-rounded aggregates.'),
 
@@ -37,10 +37,12 @@
             ),
 
             '5' => array(
-                'image' => "images/product-banner/Sand-Plant-2 copy.webp", 'title' => " Grizzly feede ",
-                'subtitle' => "Core's Vibrating Grizzly Feeders are the premier choice in modern crushing circuits, seamlessly combining scalping and feeding functions. Engineered to handle large volumes of ROQ and ROM materials, they ensure continuous, uniform, and controlled feed from hopper to crusher. ",
-                'description' => 'Positioned ahead of primary crushers, they efficiently process larger rocks while scalping out undersized material through grizzly bars, enhancing primary station capacity. Suitable for both portable and static installations, Core feeders guarantee reliability and efficiency, optimizing aggregate production processes.
-            '
+                'image' => "images/product-banner/Sand-Plant-2 copy.webp", 'title' => " Grizzly feede ", 
+                'subtitle' => " Core's Vibrating Grizzly Feeders: Optimal efficiency guaranteed.",
+                'description' => " Core's Vibrating Grizzly Feeders are the premier choice in modern crushing circuits, seamlessly combining scalping and feeding functions. Engineered to handle large volumes of ROQ and ROM materials, they ensure continuous, uniform, and controlled feed from hopper to crusher. 
+
+                Positioned ahead of primary crushers, they efficiently process larger rocks while scalping out undersized material through grizzly bars, enhancing primary station capacity. Suitable for both portable and static installations, Core's feeders guarantee reliability and efficiency, optimizing aggregate production processes.
+                "
             ),
 
             '6' => array(
