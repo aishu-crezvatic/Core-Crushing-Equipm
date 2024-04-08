@@ -17,7 +17,7 @@
       </head>
 
       <body>
-            <div class="container-fluid ">
+            <!-- <div class="container-fluid container-custom ">
                   <div class="row navigation-bar">
                         <div class="col-md-4 s1">
 
@@ -33,7 +33,32 @@
 
                         <div class="col-md-4 s3"><span><i class="fa fa-envelope p-2" aria-hidden="true"></i></span><span>info@corecrushing.com</span></div>
                   </div>
+            </div> -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <a class="navbar-brand" href="#">
+                    <img class="my-logo" src="images/logo.webp" alt="">
+                </a>
             </div>
+            <div class="col-6">
+                <div class="row justify-content-end text-right nac-position ">
+                    <div class="col-auto link-custom">
+                        <span><i class="fa-solid fa-phone p-2"></i></span><span>+91 88062 67888</span>
+                    </div>
+                    <div class="col-auto link-custom">
+                        <span><i class="fa fa-envelope p-2" aria-hidden="true"></i></span><span>info@corecrushing.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
       </body>
 
       </html>

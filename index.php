@@ -21,7 +21,7 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
 <!-- </nav> -->
 
 <body>
-  <div class="container-fluid">
+  <!-- <div class="container-fluid container-custom "> -->
     <div class="row">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
@@ -60,99 +60,76 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
     </div>
     <!-- Our Products -->
     <section class="container OurProducts text-center py-3" id="Our-products">
-      <h2 class="fw-bold">Our Products </h2>
-      <!-- product type 1 -->
-      <!-- <h4>Product type-1</h4> -->
+      <h2 class="fw-bold">Our Products</h2>
+
       <div class="row">
-        <div class="col-sm-3 ">
+        <!-- Product type 1 -->
+        <div class="col-sm-3">
           <div class="productcard">
-            <img src="images/products/Jaw-Crushers.webp" class="img-fluid" alt="" />
+            <img src="images/products/Jaw-Crushers.webp" class="img-fluid" alt="Jaw Crushers">
             <h6 class="card-title">Jaw Crushers</h6>
-            <!-- <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p> -->
-            <a href="<?php echo BASEURL . 'productpage.php?id=0'; ?>" class="btn readmore ">VIEW MORE +</a>
+            <a href="<?php echo BASEURL . 'productpage.php?id=0'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
-        <div class="col-sm-3 ">
+        <!-- Repeat similar structure for other product cards -->
+        <div class="col-sm-3">
           <div class="productcard">
-            <img src="images/products/Core-Cone-Crushing-LH-200.webp" class="img-fluid" alt="" />
+            <img src="images/products/Core-Cone-Crushing-LH-200.webp" class="img-fluid" alt="Cone Crushers">
             <h6 class="card-title">Cone Crushers</h6>
-            <!-- <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p> -->
-            <button href="#" class="btn readmore">VIEW MORE +</button>
+            <a href="#" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
-        <div class=" col-sm-3 ">
+        <div class="col-sm-3">
           <div class="productcard">
-            <img src="images/products/Sane-cone.webp" class="img-fluid" alt="" />
+            <img src="images/products/Sane-cone.webp" class="img-fluid" alt="Sander Cone">
             <h6 class="card-title">Sander Cone</h6>
-            <!-- <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p> -->
             <a href="<?php echo BASEURL . 'productpage.php?id=1'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
-        <div class=" col-sm-3 ">
+        <div class="col-sm-3">
           <div class="productcard">
-            <img src="images/products/Vertical-Shaft-Impact-Crusher.webp" class="img-fluid" alt="" />
+            <img src="images/products/Vertical-Shaft-Impact-Crusher.webp" class="img-fluid" alt="Vertical Shaft Impact Crusher">
             <h6 class="card-title">Vertical Shaft Impact Crusher</h6>
-            <!-- <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p> -->
-            <button href="<?php echo BASEURL . 'productpage.php?id=2'; ?>" class="btn readmore">VIEW MORE +</button>
+            <a href="<?php echo BASEURL . 'productpage.php?id=2'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
-      </div> <br>
-      <div class="row two-products">
-        <div class="col-sm-3 ">
-          <div class="productcard">
-            <img src="images/products/High-Frequency-Screen.webp" class="img-fluid" alt="" />
-            <h6 class="card-title">High Frequency Screen(HFS)</h6>
-            <!-- <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p> -->
-            <button href="<?php echo BASEURL . 'productpage.php?id=3'; ?>" class="btn readmore ">VIEW MORE +</button>
-          </div>
-        </div>
-        <div class="col-sm-3 ">
-          <div class="productcard">
-            <img src="images/products/Grizzly-Feeder.webp" class="img-fluid" alt="" />
-            <h6 class="card-title">Grizzly Feeder</h6>
-            <!-- <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p> -->
-            <button href="#" class="btn readmore ">VIEW MORE +</button>
-          </div>
-        </div>
-        <div class="col-sm-3 ">
-          <div class="productcard">
-            <img src="images/products/Vibrating-screen.webp" class="img-fluid" alt="" />
-            <h6 class="card-title">Vibrating Screen</h6>
-            <!-- <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p> -->
-            <button href="#" class="btn readmore ">VIEW MORE +</button>
-          </div>
-        </div>
-        <!-- <div class="col-sm-3 ">
-          <div class="productcard">
-            <img src="https://dummyimage.com/200x200/d2ad77/d2ad77" class="img-fluid" alt="" />
-            <h6 class="card-title">Pan Feeders</h6> 
-            <button href="#" class="btn readmore">VIEW MORE +</button>
-          </div>
-        </div> -->
       </div>
 
+      <br>
+
+      <div class="row two-products">
+        <!-- Add more product cards here -->
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/High-Frequency-Screen.webp" class="img-fluid" alt="High Frequency Screen(HFS)">
+            <h6 class="card-title">High Frequency Screen(HFS)</h6>
+            <a href="<?php echo BASEURL . 'productpage.php?id=3'; ?>" class="btn readmore">VIEW MORE +</a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/Grizzly-Feeder.webp" class="img-fluid" alt="Grizzly Feeder">
+            <h6 class="card-title">Grizzly Feeder</h6>
+            <a href="#" class="btn readmore">VIEW MORE +</a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/Vibrating-screen.webp" class="img-fluid" alt="Vibrating Screen">
+            <h6 class="card-title">Vibrating Screen</h6>
+            <a href="#" class="btn readmore">VIEW MORE +</a>
+          </div>
+        </div>
+        <!-- <div class="col-sm-3">
+            <div class="productcard">
+                <img src="https://dummyimage.com/200x200/d2ad77/d2ad77" class="img-fluid" alt="Pan Feeders">
+                <h6 class="card-title">Pan Feeders</h6>
+                <a href="#" class="btn readmore">VIEW MORE +</a>
+            </div>
+        </div> -->
+      </div>
     </section>
+
     <!-- Applications -->
 
     <section class="container Applications text-center py-5" id="Our-products">
@@ -262,9 +239,9 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
     <!-- cta -->
 
     <!-- <div class="row cta"> -->
-    <div class="row ">
+    <!-- <div class="row "> -->
 
-      <div class="col-md-6">
+    <!-- <div class="col-md-6 mobile-custom-space ">
         <div style="text-align: center; ">
           <h3 class="">Have a question? Talk to our expert!</h3>
           <p class="card-text-CTA">
@@ -275,17 +252,16 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
             <button class="btn inquire-now">+91 88062 67888</button>
           </div>
         </div>
-      </div>
-      <div class="col-md-6">
+      </div> -->
+    <!-- <div class="col-md-6">
         <img src="images/CTAImage.webp" class="d-block w-100" alt="..." />
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -321,16 +297,15 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
             </form>
           </div>
           <div class="modal-footer">
-            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
             <button type="button" class="btn btn-primary">Send Email</button>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- footer -->
     <?php include 'footer.php'; ?>
-  </div>
+  <!-- </div> -->
 
 </body>
 
