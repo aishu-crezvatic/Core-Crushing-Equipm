@@ -76,21 +76,21 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
           <div class="productcard">
             <img src="images/products/Core-Cone-Crushing-LH-200.webp" class="img-fluid" alt="Cone Crushers">
             <h6 class="card-title">Cone Crushers</h6>
-            <a href="#" class="btn readmore">VIEW MORE +</a>
+            <a href="<?php echo BASEURL . 'productpage.php?id=1'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="productcard">
             <img src="images/products/Sane-cone.webp" class="img-fluid" alt="Sander Cone">
             <h6 class="card-title">Sander Cone</h6>
-            <a href="<?php echo BASEURL . 'productpage.php?id=1'; ?>" class="btn readmore">VIEW MORE +</a>
+            <a href="<?php echo BASEURL . 'productpage.php?id=2'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="productcard">
             <img src="images/products/Vertical-Shaft-Impact-Crusher.webp" class="img-fluid" alt="Vertical Shaft Impact Crusher">
             <h6 class="card-title">Vertical Shaft Impact Crusher</h6>
-            <a href="<?php echo BASEURL . 'productpage.php?id=2'; ?>" class="btn readmore">VIEW MORE +</a>
+            <a href="<?php echo BASEURL . 'productpage.php?id=3'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
       </div>
@@ -103,21 +103,21 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
           <div class="productcard">
             <img src="images/products/High-Frequency-Screen.webp" class="img-fluid" alt="High Frequency Screen(HFS)">
             <h6 class="card-title">High Frequency Screen(HFS)</h6>
-            <a href="<?php echo BASEURL . 'productpage.php?id=3'; ?>" class="btn readmore">VIEW MORE +</a>
+            <a href="<?php echo BASEURL . 'productpage.php?id=4'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="productcard">
             <img src="images/products/Grizzly-Feeder.webp" class="img-fluid" alt="Grizzly Feeder">
             <h6 class="card-title">Grizzly Feeder</h6>
-            <a href="#" class="btn readmore">VIEW MORE +</a>
+            <a href="<?php echo BASEURL . 'productpage.php?id=5'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="productcard">
             <img src="images/products/Vibrating-screen.webp" class="img-fluid" alt="Vibrating Screen">
             <h6 class="card-title">Vibrating Screen</h6>
-            <a href="#" class="btn readmore">VIEW MORE +</a>
+            <a href="<?php echo BASEURL . 'productpage.php?id=6'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <!-- <div class="col-sm-3">
