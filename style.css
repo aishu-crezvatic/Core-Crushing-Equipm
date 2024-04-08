@@ -1,52 +1,64 @@
 body {
-    font-family: 'Montserrat';
+    /* font-family: 'Montserrat'; */
+
+    font-family: 'Manrope', sans-serif;
 }
 
-  .navigation-bar{
+.navigation-bar {
     background-image: url(images/navimage/Menu-header.webp);
     background-repeat: no-repeat;
     background-position: center;
-  }
+    background-size: cover;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .navbar-brand {
-      margin-right: 0;
-      padding: 0 3rem;
+        margin-right: 0;
+        padding: 0 3rem;
     }
+
     .hero div {
-      width: 50%;
+        width: 50%;
     }
+
     .about-us {
-      width: 85%;
+        width: 85%;
     }
+
     .contact {
-      max-width: 50%;
+        max-width: 50%;
     }
-  }
-  @media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1200px) {
     .navbar .navbar-nav .nav-link {
-      padding: 0.5rem 2rem;
+        padding: 0.5rem 2rem;
     }
+
     .container {
-      width: 80%;
+        width: 100%;
     }
-  }
-  .s1{
+}
+
+.s1 {
     text-align: center;
-  }
-   .s2, .s3{
+}
+
+.s2,
+.s3 {
     text-align: right;
     margin: auto;
     font-size: 16px;
     font-weight: 700;
     color: #d9b17a;
-  }
+}
 
-  .carousel-item img{
-width: 100%;
-  }
-  /* My css */
-.readmore{
+.carousel-item img {
+    width: 100%;
+}
+
+/* My css */
+.readmore {
     border: 1px solid red;
     border-radius: 25px;
     color: red;
@@ -55,13 +67,14 @@ width: 100%;
     padding: 2px 20px;
     margin: 10px 0 20px;
     font-weight: 700;
-}  
-.readmore:hover{
+}
+
+.readmore:hover {
     color: #fff;
     background-image: url(images/navimage/button-bg-2.webp);
 }
 
-.productcard{
+.productcard {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: transform .9s;
 
@@ -69,17 +82,21 @@ width: 100%;
 }
 
 .productcard:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
-  }
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
 
-.card-title{
+
+.card-title {
     margin: 15px 0px;
     height: 45px;
     font-weight: 700;
 }
-.card-text-CTA{
+
+.card-text-CTA {
     width: 70%;
     margin: auto;
     margin-bottom: 30px;
@@ -87,46 +104,53 @@ width: 100%;
 
 .card-text:last-child {
     height: 160px;
-    padding: 5px 25px;
-    text-align: justify;
+    padding: 0px 34px;
+    text-align: left;
 }
-.OurProducts h4{
-text-align: left;
-margin: 30px 0 10px;
+
+.OurProducts h4 {
+    text-align: left;
+    margin: 30px 0 10px;
 }
-.two-products{
+
+.two-products {
     justify-content: center;
     margin-top: 15px;
 }
-.why-us-icon-bg{
+
+.why-us-icon-bg {
     border-radius: 50%;
     transition: transform .9s;
 }
 
 .why-us-icon-bg:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
-  }
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
 
-.why-us{
+.why-us {
     position: relative;
-} 
-.why-us div{
-    position: absolute; 
-    top: 40%; 
-    left: 50%; 
+}
+
+.why-us div {
+    position: absolute;
+    top: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.why-us p{
+.why-us p {
     margin: 15px;
 }
 
-.bg-why-us{
+.bg-why-us {
     background-color: #dad9d9 !important
 }
-.cta{
+
+.cta {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +158,7 @@ margin: 30px 0 10px;
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
 }
 
-.inquire-now{
+.inquire-now {
     border: 1px solid #fff;
     border-radius: 6px;
     background-color: #d2ad77;
@@ -147,81 +171,96 @@ margin: 30px 0 10px;
 }
 
 
-.inquire-now:hover{
+.inquire-now:hover {
     color: #fff;
     background-image: url(images/navimage/button-bg-2.webp);
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 
 }
 
-.enq-form{
+.enq-form {
     margin: 15px 0;
 }
-.contact-us{
+
+.contact-us {
     padding: 60px auto;
     background-color: #fff;
 }
-.contact-us-one{
+
+.contact-us-one {
     padding: 31px;
 }
-.contact-us-two{
+
+.contact-us-two {
     padding: 31px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 
-.applications{
+.applications {
     margin-bottom: 38px;
 }
-.product-hero{
-    position:relative ;
+
+.product-hero {
+    position: relative;
 }
 
-.product-hero-text{
-    position: absolute; 
-    top: 40%; 
-    left:38%; transform: translate(-50%, -50%);
+.product-hero-text {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
 }
-.features{
+
+.features {
     text-align: center;
-    padding: 80px 0; 
+    padding: 80px 0;
     background-image: url(https://crushersagarwalla.com/wp-content/uploads/2022/10/Mask-Group-2-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.features-text .features-text-div{
-    display: flex; 
+
+.features-text .features-text-div {
+    display: flex;
     text-align: left;
 }
-.features-text-div .image-div{
-    display: flex; 
+
+.features-text-div .image-div {
+    display: flex;
     margin-top: 17px;
 }
-.text-div{
-    margin: 12px; 
+
+.text-div {
+    margin: 12px;
 }
 
-.features-image-div{
+.features-image-div {
     display: flex;
 }
-.features-image{
+
+.features-image {
     margin: auto;
 }
 
-.image-gallery, .table-data{
+.image-gallery,
+.table-data {
     margin: 80px 80px;
     text-align: center;
 }
-.image-gallery h1, .table-data h1{
+
+.image-gallery h1,
+.table-data h1 {
     margin: 20px;
 }
 
 
 /* table */
-.tab-heading{
+.tab-heading {
     font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
@@ -231,12 +270,12 @@ margin: 30px 0 10px;
     color: #000;
 }
 
-.tab-data{
+.tab-data {
     font-size: 20px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
-.even-col{
+.even-col {
     text-align: center;
     padding: 8px;
     font-size: 15px;
@@ -244,7 +283,7 @@ margin: 30px 0 10px;
     border: 1px solid rgba(222, 219, 219, 0.37);
 }
 
-.tablesaw{
+.tablesaw {
     width: 90%;
     max-width: 100%;
     margin: auto;
@@ -254,26 +293,27 @@ margin: 30px 0 10px;
 
 /* About us */
 
-.about-us{
-    text-align: center; 
+.about-us {
+    text-align: center;
     margin: 50px auto;
 }
-.about-us h5 span{
+
+.about-us h5 span {
     color: #e41e26;
     font-weight: 700;
 }
 
-.logo-icon{
-    height: 20px; 
-    width: 20px; 
+.logo-icon {
+    height: 20px;
+    width: 20px;
     top: 20px
 }
 
-.call-email{
+.call-email {
     margin: 0px 60px;
 }
 
-.OurProducts h2{
+.OurProducts h2 {
     margin-bottom: 20px;
 }
 
@@ -292,4 +332,273 @@ margin: 30px 0 10px;
     background-repeat: no-repeat;
     background-size: 470px;
     opacity: 0.2;
+}
+
+.features-text {
+    overflow-y: scroll;
+    height: 600px;
+}
+
+#style-4::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 2px solid #555555;
+    border-radius: 10px;
+}
+
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+
+
+.my-logo {
+    height: auto;
+    width: 144PX;
+    position: relative;
+    float: left;
+    /* top: 28px; */
+    /* margin: -20px 0; */
+    z-index: 1;
+}
+
+
+.productcard {
+    height: auto;
+    width: 100%;
+}
+
+
+.productcard-img {
+    height: auto;
+    width: 35% !important;
+    margin: auto;
+}
+
+.why-us {
+    flex: 0 0 22%;
+    margin: 10px;
+}
+
+.link-style {
+    text-decoration: none;
+}
+
+.container-custom{
+    padding: 0 !important;
+}
+
+
+.navbar {
+    background-image: url(images/navimage/Menu-header.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 65px;
+    width: 100%;
+}
+
+.link-custom{
+    float: left;
+}
+
+.nac-position{
+    position: relative;
+}
+/* responsive code  */
+
+
+@media only screen and (min-width: 578px) and (max-width: 768px) {
+
+
+    .card-title {
+        font-size: 19px;
+    }
+
+    .my-logo {
+        height: auto;
+        width: 32%;
+        position: relative;
+        float: left;
+        top: 30px;
+    }
+
+    .productcard {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: transform .9s;
+        margin: 10px auto;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .productcard-img {
+        height: auto;
+        width: 35% !important;
+        /* text-align: center; */
+        margin: auto;
+    }
+
+    .about-us {
+        text-align: left;
+        margin: 0px auto;
+        padding: 25px;
+    }
+
+
+
+    .card-text-CTA {
+        width: 70%;
+        text-align: left;
+        margin: 5px auto;
+    }
+
+    .inquire-now {
+        width: 100%;
+    }
+
+    .call-email {
+        margin: 15px 60px;
+    }
+
+    .why-us {
+        position: relative;
+        width: 200px;
+    }
+
+    .card-title {
+
+        font-size: 20px;
+    }
+
+    .why-us {
+        flex: 1 0 20%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .readmore {
+        border: 1px solid red;
+        border-radius: 25px;
+        color: red;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 14px 28px;
+        margin: 0px 0 35px 0;
+        font-weight: 700;
+    }
+
+    .productcard:hover {
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1);
+    }
+
+
+    .productcard img {
+        border-radius: 10px 10px 0px 0;
+    }
+
+    .my-logo {
+        height: auto;
+        width: 32%;
+        position: relative;
+        float: left;
+        top: 30px;
+    }
+
+    .productcard {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: transform .9s;
+        margin: 10px auto;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+    }
+
+    .mobile-custom-space {
+        margin: 25px 0;
+    }
+
+    .productcard-img {
+        height: auto;
+        width: 35% !important;
+        /* text-align: center; */
+        margin: auto;
+    }
+
+    .about-us {
+        text-align: left;
+        margin: 0px auto;
+        padding: 25px;
+    }
+
+
+
+    .card-text-CTA {
+        width: 70%;
+        text-align: left;
+        margin: 5px auto;
+    }
+
+    .inquire-now {
+        width: 100%;
+    }
+
+    .call-email {
+        margin: 15px 60px;
+    }
+
+    .why-us {
+        position: relative;
+        width: 200px;
+    }
+
+    .card-title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .why-us {
+        flex: 1 0 20%;
+    }
+
+
+
+    .custom-banner{
+        height:75vh;
+    }
+
+    .features-image {
+        margin: auto;
+        margin-left: 10px;
+    }
+
+   
+
 }
