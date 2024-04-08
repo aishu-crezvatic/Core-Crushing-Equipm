@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid container-custom">
     <!-- header -->
     <?php include 'header.php'; ?>
     <?php include 'data2.php'; ?>
@@ -37,7 +37,7 @@
     </div>
     <!-- Features -->
     <div>
-      <div class="row features">
+      <div class="row features custom-container-style ">
         <h1>SUCCESS IN EVERY HARDNESS</h1>
         <p>Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types. </p>
         <div class="row ">
@@ -273,7 +273,7 @@
 
     <!-- cta -->
 
-    <div class="row cta">
+    <!-- <div class="row cta">
       <div class="col-md-6">
         <div style="text-align: center; align-item: center ">
           <h3 class="">With supporting text below</h3>
@@ -287,7 +287,7 @@
       <div class="col-md-6">
         <img src="https://dummyimage.com/600x300/d2ad77/ffffff&text=cta" class="d-block w-100" alt="..." />
       </div>
-    </div>
+    </div> -->
 
     <a href="https://api.whatsapp.com/send?phone=8806267888&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
       <i class="fa-brands fa-whatsapp my-float"></i>

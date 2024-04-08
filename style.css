@@ -413,6 +413,9 @@ body {
     padding: 0 !important;
 }
 
+body{
+    overflow-x: hidden !important;
+}
 
 .navbar {
     background-image: url(images/navimage/Menu-header.webp);
@@ -429,6 +432,11 @@ body {
 
 .nac-position{
     position: relative;
+}
+
+.custom-container-style {
+    margin: auto;
+    padding: 0 25px;
 }
 /* responsive code  */
 
@@ -502,6 +510,11 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+
+    .product-hero img{
+        position: relative;
+        height: 100vh;
+    }
 
     .readmore {
         border: 1px solid red;
