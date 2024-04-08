@@ -42,7 +42,7 @@
         <p>Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types. </p>
         <div class="row ">
           <div class="col-md-4 features-image-div">
-            <img src="https://dummyimage.com/400x600/00000/ffffff&amp;text=Image" class="d-block w-100  features-image" alt="">
+            <img src="images/leftsideproduct/Jaw_Crusher.webp" class="d-block w-100  features-image" alt="">
           </div>
           <div class="col-md-8 features-text">
             <div class="features-text-div">
@@ -59,8 +59,8 @@
                 <img src="images/Favicon-01.webp" class="d-block logo-icon" alt="product-banner" />
               </div>
               <div class="text-div">
-                <h4><?php echo $successInEveryHardness[$id]['h1'] ?></h4>
-                <p> <?php echo $successInEveryHardness[$id]['d1'] ?></p>
+                <h4><?php echo $successInEveryHardness[$id]['h2'] ?></h4>
+                <p> <?php echo $successInEveryHardness[$id]['d2'] ?></p>
             </div>
             </div>
             <div class="features-text-div">
@@ -68,8 +68,8 @@
               <img src="images/Favicon-01.webp" class="d-block logo-icon" alt="product-banner" />
               </div>
               <div class="text-div">
-                <h4><?php echo $successInEveryHardness[$id]['h1'] ?></h4>
-                <p> <?php echo $successInEveryHardness[$id]['d1'] ?></p>
+                <h4><?php echo $successInEveryHardness[$id]['h3'] ?></h4>
+                <p> <?php echo $successInEveryHardness[$id]['d3'] ?></p>
             </div>
             </div>
             <div class="features-text-div">
@@ -77,8 +77,8 @@
               <img src="images/Favicon-01.webp" class="d-block logo-icon" alt="product-banner" />
               </div>
               <div class="text-div">
-                <h4><?php echo $successInEveryHardness[$id]['h1'] ?></h4>
-                <p> <?php echo $successInEveryHardness[$id]['d1'] ?></p>
+                <h4><?php echo $successInEveryHardness[$id]['h4'] ?></h4>
+                <p> <?php echo $successInEveryHardness[$id]['d4'] ?></p>
             </div>
             </div>
             <div class="features-text-div">
@@ -86,8 +86,8 @@
               <img src="images/Favicon-01.webp" class="d-block logo-icon " alt="product-banner" />
               </div>
               <div class="text-div">
-                <h4><?php echo $successInEveryHardness[$id]['h1'] ?></h4>
-                <p> <?php echo $successInEveryHardness[$id]['d1'] ?></p>
+                <h4><?php echo $successInEveryHardness[$id]['h5'] ?></h4>
+                <p> <?php echo $successInEveryHardness[$id]['d5'] ?></p>
               </div>
             </div>
           </div>
@@ -225,6 +225,10 @@
 <img src="https://dummyimage.com/600x300/d2ad77/ffffff&text=cta" class="d-block w-100" alt="..." />
 </div>
 </div>
+
+<a href="https://api.whatsapp.com/send?phone=8806267888&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+  <i class="fa-brands fa-whatsapp my-float"></i>
+</a>
 <!-- cta end -->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
