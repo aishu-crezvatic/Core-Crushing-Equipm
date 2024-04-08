@@ -19,7 +19,7 @@
 </head>
 
 <?php include 'header.php';
-define("BASEURL", "https://labindiadigital.com/coreCrushing/");
+define("BASEURL", "http://localhost/coreCrushing/");
 ?>
 
 <body>

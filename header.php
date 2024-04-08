@@ -39,7 +39,7 @@
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-6">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="http://localhost/coreCrushing/">
                     <img class="my-logo" src="images/logo.webp" alt="">
                 </a>
             </div>
