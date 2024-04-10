@@ -30,18 +30,15 @@ if(isset($_POST["send"])) {
         $mail->Subject = 'Contact Form Submission';
 
         // Form data
+        $form_type = $_POST['form_type']; // Get the form type
+
+        // Common form fields
         $name = $_POST['name'];
         $email = $_POST['email'];
         $contact_no = $_POST['contact_no'];
         $company_name = $_POST['company_name'];
-        $stone_type = $_POST['stone_type'];
-        $input_size_from = $_POST['input_size_from'];
-        $input_size_to = $_POST['input_size_to'];
-        $plant_stages = $_POST['plant_stages'];
-        $output_size = $_POST['output_size'];
-        $output_capacity = $_POST['output_capacity'];
         $remark = $_POST['remark'];
-        $agree = isset($_POST['agree']) ? 'Yes' : 'No';
+        
 
         // Email body
         $mail->Body = "
@@ -50,14 +47,68 @@ if(isset($_POST["send"])) {
             <p><strong>Email:</strong> $email</p>
             <p><strong>Contact No:</strong> $contact_no</p>
             <p><strong>Company Name:</strong> $company_name</p>
-            <p><strong>Stone Type:</strong> $stone_type</p>
-            <p><strong>Input Size:</strong> From $input_size_from mm to $input_size_to mm</p>
-            <p><strong>Plant Stages:</strong> $plant_stages</p>
-            <p><strong>Output Size Required:</strong> $output_size mm</p>
-            <p><strong>Output Capacity Required:</strong> $output_capacity TPH</p>
             <p><strong>Remark:</strong> $remark</p>
-            <p><strong>Agreed to terms and conditions:</strong> $agree</p>
         ";
+
+        // Additional form-specific fields and logic
+        switch ($form_type) {
+            case 'form1':
+                $stone_type = $_POST['stone_type'];
+                $input_size_from = $_POST['input_size_from'];
+                $input_size_to = $_POST['input_size_to'];
+                $plant_stages = $_POST['plant_stages'];
+                $output_size = $_POST['output_size'];
+                $output_capacity = $_POST['output_capacity'];
+                $agree = isset($_POST['agree']) ? 'Yes' : 'No';
+
+                // Append form 1 data to the email body
+                $mail->Body .= "
+                    <p><strong>Stone Type:</strong> $stone_type</p>
+                    <p><strong>Input Size:</strong> From $input_size_from mm to $input_size_to mm</p>
+                    <p><strong>Plant Stages:</strong> $plant_stages</p>
+                    <p><strong>Output Size Required:</strong> $output_size mm</p>
+                    <p><strong>Output Capacity Required:</strong> $output_capacity TPH</p>
+                    <p><strong>Agreed to terms and conditions:</strong> $agree</p>
+                ";
+                break;
+
+            case 'form2':
+                $capacity_from = $_POST['capacity_from'];
+                $capacity_to = $_POST['capacity_to'];
+                $number_of_decks_from = $_POST['number_of_decks_from'];
+                $number_of_decks_to = $_POST['number_of_decks_to'];
+                $cut_point = $_POST['cut_point'];
+                $agree = isset($_POST['agree']) ? 'Yes' : 'No';
+
+                // Append form 2 data to the email body
+                $mail->Body .= "
+                    <p><strong>Capacity:</strong> From $capacity_from TPH to $capacity_to TPH</p>
+                    <p><strong>Number of Decks:</strong> From $number_of_decks_from Deck to $number_of_decks_to Deck</p>
+                    <p><strong>Cut Point:</strong> $cut_point</p>
+                    <p><strong>Agreed to terms and conditions:</strong> $agree</p>
+                ";
+                break;
+
+            case 'form3':
+                $stone_type = $_POST['stone_type'];
+                $input_size_from = $_POST['input_size_from'];
+                $input_size_to = $_POST['input_size_to'];
+                $plant_stages = $_POST['plant_stages'];
+                $output_size = $_POST['output_size'];
+                $output_capacity = $_POST['output_capacity'];
+                $agree = isset($_POST['agree']) ? 'Yes' : 'No';
+
+                // Append form 3 data to the email body
+                $mail->Body .= "
+                    <p><strong>Stone Type:</strong> $stone_type</p>
+                    <p><strong>Input Size:</strong> From $input_size_from mm to $input_size_to mm</p>
+                    <p><strong>Plant Stages:</strong> $plant_stages</p>
+                    <p><strong>Output Size Required:</strong> $output_size mm</p>
+                    <p><strong>Output Capacity Required:</strong> $output_capacity TPH</p>
+                    <p><strong>Agreed to terms and conditions:</strong> $agree</p>
+                ";
+                break;
+        }
 
         // Send the email
         $mail->send();

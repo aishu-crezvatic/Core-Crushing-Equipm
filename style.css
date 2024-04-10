@@ -381,9 +381,9 @@ body {
     height: auto;
     width: 144PX;
     position: relative;
-    float: left;
+    /* float: left; */
     /* top: 28px; */
-    /* margin: -20px 0; */
+    margin: -20px 0;
     z-index: 1;
 }
 
@@ -426,8 +426,11 @@ body{
     width: 100%;
 }
 
-.link-custom{
-    float: left;
+.link-custom {
+    float: right;
+    width: 430px;
+    text-align: right;
+    color: white;
 }
 
 .nac-position{
@@ -436,7 +439,7 @@ body{
 
 .custom-container-style {
     margin: auto;
-    padding: 0 25px;
+    padding: 35px 0;
 }
 /* responsive code  */
 
@@ -511,9 +514,199 @@ body{
 
 @media screen and (max-width: 576px) {
 
+    .navbar {
+        height: 100px;
+    }
+    
+    
+
+    .link-custom {
+        width: auto;
+        margin: auto;
+    }
+
     .product-hero img{
         position: relative;
-        height: 100vh;
+        /* height: 100vh; */
+    }
+
+    .readmore {
+        border: 1px solid red;
+        border-radius: 25px;
+        color: red;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 14px 28px;
+        margin: 0px 0 35px 0;
+        font-weight: 700;
+    }
+
+    .productcard:hover {
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1);
+    }
+
+
+    .productcard img {
+        border-radius: 10px 10px 0px 0;
+    }
+
+    .my-logo {
+        height: auto;
+        width: 23%;
+        position: relative;
+        float: left;
+        top: 10px;
+    }
+
+    .productcard {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: transform .9s;
+        margin: 10px auto;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+    }
+
+    .mobile-custom-space {
+        margin: 25px 0;
+    }
+
+    .productcard-img {
+        height: auto;
+        width: 35% !important;
+        /* text-align: center; */
+        margin: auto;
+    }
+
+    .about-us {
+        text-align: left;
+        margin: 0px auto;
+        padding: 25px;
+    }
+
+
+
+    .card-text-CTA {
+        width: 70%;
+        text-align: left;
+        margin: 5px auto;
+    }
+
+    .inquire-now {
+        width: 100%;
+    }
+
+    .call-email {
+        margin: 15px 60px;
+    }
+
+    .why-us {
+        position: relative;
+        width: 200px;
+    }
+
+    .card-title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .why-us {
+        flex: 1 0 20%;
+    }
+
+
+
+    .custom-banner{
+        height:75vh;
+    }
+
+    .features-image {
+        margin: auto;
+        margin-left: 10px;
+    }
+
+    .product-hero-content .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    .banne-new{
+        height: 55vh !important;
+    }
+
+}
+
+.icon-n {
+    height: 50px;
+    width: 75px;
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: 550px;
+    margin: auto;
+}
+
+.custom-container {
+    padding: 0 25px !important;
+}
+.custom-container-banner{
+    padding: 0 !important;
+}
+
+
+.product-hero-content {
+    position: relative;
+    top: 100px;
+}
+
+.product-hero-content .container {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -30%;
+}
+
+.banne-new{
+    height: 95vh;
+}
+
+/* Adjustments for mobile view */
+@media (max-width: 767px) {
+    .product-hero-content .container {
+        position: relative;
+        transform: none;
+        margin-top: 20px;
+        padding: 15px;
+    }
+    
+    .hero-text h1 {
+        font-size: 24px; 
+    }
+    
+    .hero-text h3 {
+        font-size: 18px; 
+    }
+    
+    .hero-text p {
+        font-size: 14px; 
+    }
+
+   
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .product-hero img{
+        position: relative;
+        /* height: 100vh; */
     }
 
     .readmore {
@@ -612,6 +805,13 @@ body{
         margin-left: 10px;
     }
 
-   
+    .product-hero-content .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
 
+    .banne-new{
+        height: 55vh !important;
+    }
 }

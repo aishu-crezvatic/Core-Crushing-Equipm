@@ -89,65 +89,65 @@ define("BASEURL", "http://localhost/coreCrushing/");
   <section class="container OurProducts text-center py-3" id="Our-products">
     <h2 class="fw-bold">Our Products</h2>
 
-    <div class="row">
-      <!-- Product type 1 -->
-      <div class="col-sm-3">
-        <div class="productcard">
-          <img src="images/products/Jaw-Crushers.webp" class="img-fluid" alt="Jaw Crushers">
-          <h6 class="card-title">Jaw Crushers</h6>
-          <a href="<?php echo BASEURL . 'productpage.php?id=0'; ?>" class="btn readmore">VIEW MORE +</a>
+      <div class="row">
+        <!-- Product type 1 -->
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/Jaw-Crushers.webp" class="img-fluid" alt="Jaw Crushers">
+            <h6 class="card-title">Jaw Crushers</h6>
+            <a href="<?php echo BASEURL . 'productpage.php?id=0'; ?>" class="btn readmore">VIEW MORE +</a>
+          </div>
+        </div>
+        <!-- Repeat similar structure for other product cards -->
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/Core-Cone-Crushing-LH-200.webp" class="img-fluid" alt="Cone Crushers">
+            <h6 class="card-title">Cone Crushers</h6>
+            <a href="<?php echo BASEURL . 'productpage.php?id=1'; ?>" class="btn readmore">VIEW MORE +</a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/Sane-cone.webp" class="img-fluid" alt="Sander Cone">
+            <h6 class="card-title">Sander Cone</h6>
+            <a href="<?php echo BASEURL . 'productpage.php?id=2'; ?>" class="btn readmore">VIEW MORE +</a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/Vertical-Shaft-Impact-Crusher.webp" class="img-fluid" alt="Vertical Shaft Impact Crusher">
+            <h6 class="card-title">Vertical Shaft Impact Crusher</h6>
+            <a href="<?php echo BASEURL . 'productpage.php?id=3'; ?>" class="btn readmore">VIEW MORE +</a>
+          </div>
         </div>
       </div>
-      <!-- Repeat similar structure for other product cards -->
-      <div class="col-sm-3">
-        <div class="productcard">
-          <img src="images/products/Core-Cone-Crushing-LH-200.webp" class="img-fluid" alt="Cone Crushers">
-          <h6 class="card-title">Cone Crushers</h6>
-          <a href="#" class="btn readmore">VIEW MORE +</a>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="productcard">
-          <img src="images/products/Sane-cone.webp" class="img-fluid" alt="Sander Cone">
-          <h6 class="card-title">Sander Cone</h6>
-          <a href="<?php echo BASEURL . 'productpage.php?id=1'; ?>" class="btn readmore">VIEW MORE +</a>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="productcard">
-          <img src="images/products/Vertical-Shaft-Impact-Crusher.webp" class="img-fluid" alt="Vertical Shaft Impact Crusher">
-          <h6 class="card-title">Vertical Shaft Impact Crusher</h6>
-          <a href="<?php echo BASEURL . 'productpage.php?id=2'; ?>" class="btn readmore">VIEW MORE +</a>
-        </div>
-      </div>
-    </div>
 
     <br>
 
-    <div class="row two-products">
-      <!-- Add more product cards here -->
-      <div class="col-sm-3">
-        <div class="productcard">
-          <img src="images/products/High-Frequency-Screen.webp" class="img-fluid" alt="High Frequency Screen(HFS)">
-          <h6 class="card-title">High Frequency Screen(HFS)</h6>
-          <a href="<?php echo BASEURL . 'productpage.php?id=3'; ?>" class="btn readmore">VIEW MORE +</a>
+      <div class="row two-products">
+        <!-- Add more product cards here -->
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/High-Frequency-Screen.webp" class="img-fluid" alt="High Frequency Screen(HFS)">
+            <h6 class="card-title">High Frequency Screen(HFS)</h6>
+            <a href="<?php echo BASEURL . 'productpage.php?id=4'; ?>" class="btn readmore">VIEW MORE +</a>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="productcard">
-          <img src="images/products/Grizzly-Feeder.webp" class="img-fluid" alt="Grizzly Feeder">
-          <h6 class="card-title">Grizzly Feeder</h6>
-          <a href="#" class="btn readmore">VIEW MORE +</a>
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/Grizzly-Feeder.webp" class="img-fluid" alt="Grizzly Feeder">
+            <h6 class="card-title">Grizzly Feeder</h6>
+            <a href="<?php echo BASEURL . 'productpage.php?id=5'; ?>" class="btn readmore">VIEW MORE +</a>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="productcard">
-          <img src="images/products/Vibrating-screen.webp" class="img-fluid" alt="Vibrating Screen">
-          <h6 class="card-title">Vibrating Screen</h6>
-          <a href="#" class="btn readmore">VIEW MORE +</a>
+        <div class="col-sm-3">
+          <div class="productcard">
+            <img src="images/products/Vibrating-screen.webp" class="img-fluid" alt="Vibrating Screen">
+            <h6 class="card-title">Vibrating Screen</h6>
+            <a href="<?php echo BASEURL . 'productpage.php?id=6'; ?>" class="btn readmore">VIEW MORE +</a>
+          </div>
         </div>
-      </div>
-      <!-- <div class="col-sm-3">
+        <!-- <div class="col-sm-3">
             <div class="productcard">
                 <img src="https://dummyimage.com/200x200/d2ad77/d2ad77" class="img-fluid" alt="Pan Feeders">
                 <h6 class="card-title">Pan Feeders</h6>
@@ -281,8 +281,8 @@ define("BASEURL", "http://localhost/coreCrushing/");
         <img src="images/CTAImage.webp" class="d-block w-100" alt="..." />
       </div>
     </div> -->
-
-  <div class="container-fluid">
+    <?php include 'cta.php'; ?>
+  <!-- <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 mobile-custom-space ">
         <div style="text-align: center; ">
@@ -300,7 +300,7 @@ define("BASEURL", "http://localhost/coreCrushing/");
         <img src="images/CTAImage.webp" class="d-block w-100" alt="..." />
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">

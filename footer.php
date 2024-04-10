@@ -24,8 +24,7 @@
         <div class="col-md-6 contact-us-two">
             <h2>Contact Form</h2>
 
-<!-- Form 1 -->
-
+<!-- Form 1 --> 
             <form action="sampple-mail.php" method="post">
                 <div>
                     <label for="name">Name:</label>
@@ -90,6 +89,7 @@
                     <input type="checkbox" id="agree" name="agree" required>
                     <label for="agree">I agree to terms and conditions</label>
                 </div>
+                <input type="hidden" name="form_type" value="form1">
                 <button type="submit" name="send">Submit</button>
             </form>
     <!-- Form 1 end -->
@@ -138,6 +138,7 @@
             <input type="checkbox" id="agree" name="agree" required>
             <label for="agree">I agree to terms and conditions</label>
         </div>
+        <input type="hidden" name="form_type" value="form2">
         <button type="submit" name="send">Submit</button>
     </form>
 
@@ -145,7 +146,7 @@
 
     <!-- Form 3 -->
     <h2>Contact Form 3</h2>
-    <form action="sample-mail.php" method="post">
+    <form action="sampple-mail.php" method="post">
         <div>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -205,6 +206,7 @@
             <input type="checkbox" id="agree" name="agree" required>
             <label for="agree">I agree to terms and conditions</label>
         </div>
+        <input type="hidden" name="form_type" value="form3">
         <button type="submit" name="send">Submit</button>
     </form>
     <!-- Form 3 end -->
