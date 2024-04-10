@@ -62,7 +62,7 @@ body {
        border: 2px solid red;
         border-radius: 25px;
         color: red;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         padding: 4px 20px;
         margin: 10px 0 20px;
@@ -550,7 +550,7 @@ body{
     }
 
     .readmore {
-        border: 1px solid red;
+        border: 2px solid red;
         border-radius: 25px;
         color: red;
         font-size: 18px;
