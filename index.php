@@ -4,63 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Template with Owl Carousel</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-  <!-- Amrit CSS -->
-  <link rel="stylesheet" href="new-style.css">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    /* Custom styles can be added here */
-  </style>
+  <title>Home page</title>
+ 
 </head>
 
 <?php include 'header.php';
-define("BASEURL", "https://labindiadigital.com/coreCrushing/");
+// define("BASEURL", "https://labindiadigital.com/coreCrushing/");
 ?>
 
 <body>
 
-  <!-- Navigation Bar -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Your Brand</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
-
-
     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class="carousel-item active" data-bs-toggle="modal" data-bs-target="#contactFormModal">
         <img src="images/HomeSlider/3rd_Landing_Page_Bannernew.webp" class="d-block w-100" alt="Slider Image 1">
       </div>
-      <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#contactFormModal">
         <img src="images/HomeSlider/core HFS- web-banner.webp" class="d-block w-100" alt="Slider Image 2">
       </div>
-      <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#contactFormModal">
         <img src="images/HomeSlider/Superior Crushing Solutions- banner.webp" class="d-block w-100" alt="Slider Image 3">
       </div>
     </div>
@@ -198,36 +161,6 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
       <p>
         Choose Core Crushing for your stone-crushing needs and experience the difference. With a wealth of industry experience, cutting-edge technology, and a commitment to tailored solutions and quality, we stand as your premier choice. Our team's expertise ensures seamless project execution, while our dedication to innovation guarantees superior results. Trust Core Crushing for reliability, efficiency, and excellence in every endeavour.
       </p>
-      <!-- <div class="row text-center">
-          <div class="col-md-3 col-sm-6 col-xs-6 why-us">
-            <img src="images/WhyUsIcons/Experience-01-01.webp" class="img-fluid why-us-icon-bg" alt="" />
-            <div>
-           
-            </div>
-            <p>Experience</p>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-6 why-us">
-            <img src="images/WhyUsIcons/Technology-01.webp" class="img-fluid why-us-icon-bg" alt="" />
-            <div>
-             
-            </div>
-            <p>Cutting-Edge Technology</p>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-6 why-us">
-            <img src="images/WhyUsIcons/Customized-01.webp" class="img-fluid why-us-icon-bg" alt="" />
-            <div>
-              
-            </div>
-            <p>Customised Solutions</p>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-6 why-us">
-            <img src="images/WhyUsIcons/Quality-01.webp" class="img-fluid why-us-icon-bg" alt="" />
-            <div>
-            
-            </div>
-            <p>Quality</p>
-          </div>
-        </div> -->
 
       <div class="row text-center">
         <div class="why-us">
@@ -262,70 +195,12 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
     </div>
   </section>
 
-  <!-- <div class="row cta"> -->
-  <!-- <div class="row ">
-
-      <div class="col-md-6 mobile-custom-space ">
-        <div style="text-align: center; ">
-          <h3 class="">Have a question? Talk to our expert!</h3>
-          <p class="card-text-CTA">
-            Our team is here to assist you with any inquiries or concerns you may have. Contact us now to get the answers you need and make informed decisions for your project.
-          </p>
-          <div class="row call-email">
-            <button href="#" class="btn inquire-now">Inquire Now</button>
-            <button class="btn inquire-now">+91 88062 67888</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <img src="images/CTAImage.webp" class="d-block w-100" alt="..." />
-      </div>
-    </div> -->
     <?php include 'cta.php'; ?>
-  <!-- <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6 mobile-custom-space ">
-        <div style="text-align: center; ">
-          <h3 class="">Have a question? Talk to our expert!</h3>
-          <p class="card-text-CTA">
-            Our team is here to assist you with any inquiries or concerns you may have. Contact us now to get the answers you need and make informed decisions for your project.
-          </p>
-          <div class="row call-email">
-            <button href="#" class="btn inquire-now">Inquire Now</button>
-            <button class="btn inquire-now">+91 88062 67888</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <img src="images/CTAImage.webp" class="d-block w-100" alt="..." />
-      </div>
-    </div>
-  </div> -->
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <h1>Custam form</h1>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Send Email</button>
-        </div>
-      </div>
-    </div>
-  </div>
+
+ <!-- modal -->
 
   <!-- footer -->
   <?php include 'footer.php'; ?>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
-
-  
 
   <!-- Owl Carousel JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

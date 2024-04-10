@@ -64,7 +64,7 @@ if (!isset($table_data[$id])) {
                 <h1><?php echo $Prod_Banner[$id]['title'] ?></h1>
                 <h3 style="color:red"><?php echo $Prod_Banner[$id]['subtitle'] ?></h3>
                 <p><?php echo $Prod_Banner[$id]['description'] ?></p>
-                <a href="#" class="btn inquire-now">Inquire Now</a>
+                <a class="btn inquire-now" data-bs-toggle="modal" data-bs-target="#contactFormModal">Inquire Now</a>
               </div>
             </div>
             <div class="col-md-6">
@@ -235,10 +235,7 @@ if (!isset($table_data[$id])) {
       </div>
     </div>
 
-
-
     <!-- cta -->
-
     <?php include 'cta.php'; ?>
 
     <a href="https://api.whatsapp.com/send?phone=8806267888&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">

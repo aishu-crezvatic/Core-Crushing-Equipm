@@ -30,6 +30,7 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     <!-- Form 2 -->
     <?php if ($id === 2){?>
     <h2 style="display: none;">Contact Form Sand Plant</h2>
+    <div id="footerFormContainer" >
     <form action="sampple-mail.php" method="post">
         <div>
             <label for="name">Name:</label>
@@ -75,11 +76,13 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
         <input type="hidden" name="form_type" value="form2">
         <button type="submit" name="send">Submit</button>
     </form> 
+    <div>
     <!-- Form 2 end -->
 
     <!-- Form 3 -->
     <?php } elseif ($id === 4){ ?>
     <h2 style="display: none;">Contact Form High-Frequency Screen</h2>
+    <div id="footerFormContainer">
     <form action="sampple-mail.php" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -114,9 +117,11 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
 
             <button type="submit" name="send">Submit</button>
     </form>
+    </div>
     <!-- Form 3 end -->
     <?php } else {?>
     <h2 style="display: none;">Contact Form general</h2>
+    <div id="footerFormContainer">
     <form action="sampple-mail.php" method="post">
         <div>
             <label for="name">Name:</label>
@@ -184,11 +189,19 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
         <input type="hidden" name="form_type" value="form1">
         <button type="submit" name="send">Submit</button>
     </form>
+    </div>
     <?php }  ?>
     
         </div>
     </div>
 </div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
 <script>
     var Slider = (function() {
