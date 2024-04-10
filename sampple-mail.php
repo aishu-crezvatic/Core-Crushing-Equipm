@@ -12,6 +12,13 @@ if(isset($_POST["send"])) {
     $mail = new PHPMailer(true);
 
     try {
+        // Common form fields
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $contact_no = $_POST['contact_no'];
+        $company_name = $_POST['company_name'];
+        $remark = $_POST['remark'];
+
         // SMTP settings
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
@@ -22,23 +29,15 @@ if(isset($_POST["send"])) {
         $mail->Port       = 587;
 
         // Sender and recipient settings
-        $mail->setFrom('aishwaryapbhoir@gmail.com', 'Aish'); // Sender's email and name
-        $mail->addAddress('aishwarya@crezvatic.com', 'Recipient Name'); // Recipient's email and name
+        $mail->setFrom('aishwaryapbhoir@gmail.com', 'Aishwarya'); // Sender's email and name
+        $mail->addAddress($email, 'Recipient Name'); // Recipient's email and name
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'Contact Form Submission';
+        $mail->Subject = 'Contact Form Submission Local';
 
         // Form data
         $form_type = $_POST['form_type']; // Get the form type
-
-        // Common form fields
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $contact_no = $_POST['contact_no'];
-        $company_name = $_POST['company_name'];
-        $remark = $_POST['remark'];
-        
 
         // Email body
         $mail->Body = "
@@ -112,7 +111,8 @@ if(isset($_POST["send"])) {
 
         // Send the email
         $mail->send();
-        echo "<script>alert('Email sent successfully!');</script>";
+        echo "<script>alert('Email sent successfully!');  
+        </script>";
     } catch (Exception $e) {
         echo "<script>alert('Failed to send email. Error: {$mail->ErrorInfo}');</script>";
     }

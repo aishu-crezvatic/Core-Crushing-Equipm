@@ -7,7 +7,7 @@
             Our team is here to assist you with any inquiries or concerns you may have. Contact us now to get the answers you need and make informed decisions for your project.
           </p>
           <div class="row call-email">
-            <button href="#" class="btn inquire-now">Inquire Now</button>
+            <button href="#" class="btn inquire-now " data-bs-toggle="modal" data-bs-target="#exampleModal">Inquire Now</button>
             <button class="btn inquire-now">+91 88062 67888</button>
           </div>
         </div>

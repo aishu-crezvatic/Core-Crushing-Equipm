@@ -19,7 +19,7 @@
 </head>
 
 <?php include 'header.php';
-define("BASEURL", "http://localhost/coreCrushing/");
+define("BASEURL", "https://labindiadigital.com/coreCrushing/");
 ?>
 
 <body>
@@ -51,16 +51,16 @@ define("BASEURL", "http://localhost/coreCrushing/");
     </nav> -->
 
 
-
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item active" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img src="images/HomeSlider/3rd_Landing_Page_Bannernew.webp" class="d-block w-100" alt="Slider Image 1">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img src="images/HomeSlider/core HFS- web-banner.webp" class="d-block w-100" alt="Slider Image 2">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img src="images/HomeSlider/Superior Crushing Solutions- banner.webp" class="d-block w-100" alt="Slider Image 3">
       </div>
     </div>
@@ -309,36 +309,7 @@ define("BASEURL", "http://localhost/coreCrushing/");
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form>
-            <div class="form-group enq-form">
-              <select class="" id="country" aria-label="Country Select" required>
-                <option value="">Select city</option>
-                <option value="AF">Afghanistan</option>
-                <option value="AX">Åland Islands</option>
-                <option value="AL">Albania</option>
-              </select>
-            </div>
-            <div class="form-group enq-form">
-              <input type="text" id="name" placeholder="Enter your name" required>
-              <input type="tel" id="c_name" placeholder="Enter company name" required>
-            </div>
-            <div class="form-group enq-form">
-              <input type="tel" id="contact_no" placeholder="Enter your Phone" required>
-              <input type="email" id="mail" placeholder="Enter your Email" required>
-            </div>
-
-            <div class="form-group enq-form">
-              <textarea class="form-control" id="address" rows="3" placeholder="Enter your address" required></textarea>
-            </div>
-            <div class="form-group enq-form">
-              <textarea class="form-control" id="question" rows="3" placeholder="Write your question here"></textarea>
-            </div>
-            <div class="form-group enq-form form-check">
-              <input type="checkbox" class="form-check-input" id="agree" name="agree" required>
-              <label class="form-check-label" for="agree">I agree to terms and conditions</label>
-            </div>
-            <button type="submit" class="btn" disabled>Submit</button>
-          </form>
+          <h1>Custam form</h1>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary">Send Email</button>
@@ -349,13 +320,12 @@ define("BASEURL", "http://localhost/coreCrushing/");
 
   <!-- footer -->
   <?php include 'footer.php'; ?>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
 
   <!-- Owl Carousel JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

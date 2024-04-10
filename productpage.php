@@ -62,7 +62,7 @@ if (!isset($table_data[$id])) {
           <h1> <?php echo $Prod_Banner[$id]['title'] ?></h1>
           <h3 style="color:red"> <?php echo $Prod_Banner[$id]['subtitle'] ?></h3>
           <p style=" width: 74%; "><?php echo $Prod_Banner[$id]['description'] ?></p>
-          <button href="#" class="btn inquire-now">Inquire Now</button>
+          <button href="#" class="btn inquire-now" >Inquire Now</button>
         </div>
       </div>
       <div class="row" style="position: absolute; top: 40%; left:70%; transform: translate(-50%, -50%);">
