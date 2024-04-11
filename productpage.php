@@ -112,7 +112,7 @@ if (!isset($table_data[$id])) {
 
     <div class="table-data">
       <h1>Technical specification</h1>
-      <p>sit amet consectetur adipisicing elit. Ex, dignissimos aspernatur assumenda corporis fugit excepturi totam optio, voluptas distinctio natus expedita. Aspernatur quia, minima amet alias nobis eius eum perspiciatis!</p>
+      <p><?php echo $table_data[$id]['tablepara'] ?></p>
 
       <div class="elementor-widget-container">
         <div class="pp-table-container">
