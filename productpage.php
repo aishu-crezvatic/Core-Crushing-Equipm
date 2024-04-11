@@ -52,8 +52,6 @@ if (!isset($table_data[$id])) {
 
 <body>
   <div class="container-fluid custom-container-banner">
-
-
     <div class="product-hero">
       <img src="<?php echo $Prod_Banner[$id]['image'] ?>" class="d-block w-100 banne-new" alt="product-banner" />
       <div class="product-hero-content">
@@ -77,38 +75,310 @@ if (!isset($table_data[$id])) {
       </div>
     </div>
 
-    <!-- Features -->
-    <div class="container-fluid custom-container add-pad ">
-      <div class="row features custom-container-style">
-        <div class="col-md-12">
-          <h1>SUCCESS IN EVERY HARDNESS</h1>
-          <p>Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="images/leftsideproduct/Jaw_Crusher.webp" class="img-fluid" alt="">
-        </div>
-        <div class="col-md-8 scroll ">
-          <?php for ($i = 1; $i <= 10; $i++) { ?>
-            <div class="features-text-div">
+    <!-- type tab -->
+
+    <?php if ($id == 1) { ?>
+
+      <div class="card p-3 card-typediv">
+        <nav>
+          <div class="nav nav-tabs mb-3 mt-5 typediv" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SH 200 Cone Crusher</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">SH 400 Cone Crusher</button>
+          </div>
+        </nav>
+        <div class="tab-content p-3 border bg-light" id="nav-tabContent">
+          <!-- For 200 -->
+          <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <!--features-  -->
+            <div class="container-fluid custom-container add-pad ">
+              <div class="row features custom-container-style">
+                <div class="col-md-12">
+                  <h1>SUCCESS IN EVERY HARDNESS</h1>
+                  <p>Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
+                </div>
+              </div>
               <div class="row">
-                <!-- <div class="col-md-2"> -->
-                <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
-                <!-- </div> -->
-                <div class="col-md-10">
-                  <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
-                  <p><?php echo $successInEveryHardness[$id]['d' . $i] ?></p>
+                <div class="col-md-4 text-center">
+                  <img src="<?php echo $successInEveryHardness[$id]['vimage'] ?>" class="img-fluid" alt="">
+                </div>
+                <?php
+                // foreach ($successInEveryHardness[$id]['200'] as $key => $val) {
+                //   // echo '<pre>';
+                //   print_r($key);
+                // }
+                ?>
+                <div class="col-md-8 scroll ">
+                  <?php for ($i = 1; $i <= 10; $i++) { ?>
+                    <div class="features-text-div">
+                      <div class="row">
+                        <!-- <div class="col-md-2"> -->
+                        <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
+                        <!-- </div> -->
+                        <div class="col-md-10">
+                          <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
+                          <p><?php echo $successInEveryHardness[$id]['d' . $i] ?></p>
+                        </div>
+                      </div>
+                    </div>
+                  <?php } ?>
                 </div>
               </div>
             </div>
-          <?php } ?>
+            <!-- table -->
+            <div class="table-data">
+        <h1>Technical specification SH 200 Cone</h1>
+        <p>The Core SH 200 Cone boasts cast top and bottom shells for enduring crushing loads, a hydraulically supported forged alloy main shaft assembly with push-button control, and specially designed mantle and concave profiles for consistent feed opening retention. Its all-roller bearing design ensures high load capacity and constant alignment, reducing frictional losses and enabling variable operational speeds. The built-in hydraulic rotary feed distributor optimizes material distribution for increased wear life and enhanced capacity.</p>
+
+        <div class="elementor-widget-container">
+            <div class="pp-table-container table-responsive">
+                <table class="tablesaw">
+                    <colgroup>
+                        <col span="1" class="">
+                    </colgroup>
+                    <thead>
+                        <tr class="tab-heading">
+                            <th>Max Feed Size (mm)</th>
+                            <th>Motor Size Kw/HP</th>
+                            <th>Crusher Weight (MT)</th>
+                            <th colspan="9">Closed Side Setting (mm), Throughput capacity (mtph)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="even-col">
+                            <td class=" "> </td>
+                            <td class=" "> </td>
+                            <td class=" "> </td>
+                            <td class=" ">14</td>
+                            <td class=" ">16</td>
+                            <td class=" ">18</td>
+                            <td class=" ">20</td>
+                            <td class=" ">22</td>
+                            <td class=" ">25</td>
+                            <td class=" ">28</td>
+                            <td class=" ">30</td>
+                            <td class=" ">32</td>
+                        </tr>
+                        <tr class="even-col">
+                            <td style="color: red;">Coarse Concave-165</td>
+                            <td rowspan="2"> Up to 150/200</td>
+                            <td rowspan="2">13</td>
+                            <td class=" "> </td>
+                            <td class=" "> </td>
+                            <td class=" "> </td>
+                            <td class=" ">140-150</td>
+                            <td class=" ">150-160</td>
+                            <td class=" ">175-185</td>
+                            <td class=" ">200-210</td>
+                            <td class=" ">210-220</td>
+                            <td class=" ">220-230</td>
+                        </tr>
+                        <tr class="even-col">
+                            <td>Medium Concave-115</td>
+                            <!-- <td rowspan="2"> Up to 150/200</td>
+                            <td rowspan="2">13</td> -->
+                            <td class=" ">105-110</td>
+                            <td class=" ">110-120</td>
+                            <td class=" ">120-130</td>
+                            <td class=" ">130-140</td>
+                            <td class=" ">140-150</td>
+                            <td class=" ">165-175</td>
+                            <td class=" "> </td>
+                            <td class=" "> </td>
+                            <td class=" "> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-      </div>
     </div>
 
-    <!-- Table -->
-    <?php include 'tables.php'; ?>
+          </div>
+
+          <!-- For 400 -->
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+             <!--features-  -->
+             <div class="container-fluid custom-container add-pad ">
+              <div class="row features custom-container-style">
+                <div class="col-md-12">
+                  <h1>SUCCESS IN EVERY HARDNESS</h1>
+                  <p>Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 text-center">
+                  <img src="<?php echo $successInEveryHardness[$id]['vimage2'] ?>" class="img-fluid" alt="">
+                </div>
+                <?php
+                // foreach ($successInEveryHardness[$id]['200'] as $key => $val) {
+                //   // echo '<pre>';
+                //   print_r($key);
+                // }
+                ?>
+                <div class="col-md-8 scroll ">
+                  <?php for ($i = 1; $i <= 10; $i++) { ?>
+                    <div class="features-text-div">
+                      <div class="row">
+                        <!-- <div class="col-md-2"> -->
+                        <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
+                        <!-- </div> -->
+                        <div class="col-md-10">
+                          <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
+                          <p><?php echo $successInEveryHardness[$id]['d' . $i] ?></p>
+                        </div>
+                      </div>
+                    </div>
+                  <?php } ?>
+                </div>
+              </div>
+            </div>
+            <!-- table -->
+            <div class="table-data">
+        <h1>SH 400 Cone Crusher </h1>
+        <p>The Core SH 400 Cone Crusher is built to withstand tough quarry and mining conditions. Featuring anti-friction roller bearings, a 37 kW motor, and a cartridge-type design for easy access to components, it offers enhanced crushing power and serviceability. With a compact, balanced design and no speed limitations, it ensures superior productivity and flexibility. Its hydraulically operated rotary feed distributor optimizes material distribution, while optional extras provide added customisation.</p>
+
+        <div class="elementor-widget-container">
+            <div class="pp-table-container table-responsive">
+                <table class="tablesaw">
+                    <colgroup>
+                        <col span="1" class="">
+                    </colgroup>
+                    <thead>
+                        <tr class="tab-heading">
+                            <th>Max Feed Size (mm)</th>
+                            <th>Motor Size Kw/HP</th>
+                            <th>Crusher Weight (MT)</th>
+                            <th colspan="10">Closed Side Setting (mm), Throughput capacity (mtph)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="even-col">
+                            <td class=""></td>
+                            <td class=""></td>
+                            <td class=""></td>
+                            <td class="">12</td>
+                            <td class="">14</td>
+                            <td class="">16</td>
+                            <td class="">18</td>
+                            <td class="">20</td>
+                            <td class="">22</td>
+                            <td class="">25</td>
+                            <td class="">30</td>
+                            <td class="">40</td>
+                            <td class="">50</td>
+                        </tr>
+                        <tr class="even-col">
+                            <td>EC Bowl (-) 280mm</td>
+                            <td></td>
+                            <td rowspan="2">30</td>
+                            <!-- <td></td> -->
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>300-360</td>
+                            <td>330-450</td>
+                            <td>380-500</td>
+                        </tr>
+                        <tr class="even-col">
+                            <td>Coarse Bowl (-) 200mm</td>
+                            <td>Up to 315/400</td>
+                            <!-- <td></td> -->
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <!-- <td></td> -->
+                            <td>260-330</td>
+                            <td>280-350</td>
+                            <td>300-400</td>
+                            <td></td>
+                        </tr>
+                        <tr class="even-col">
+                            <td>Medium Bowl (-) 120mm</td>
+                            <td></td>
+                            <td rowspan="2">28.5</td>
+                            <td></td>
+                            <td></td>
+                            <td>200-250</td>
+                            <td>220-280</td>
+                            <td>240-300</td>
+                            <td>260-320</td>
+                            <td>260-340</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="even-col">
+                            <td>Medium Fine Bowl (-) 70mm</td>
+                            <td></td>
+                            <!-- <td></td> -->
+                            <td>160-190</td>
+                            <td>175-215</td>
+                            <td>190-240</td>
+                            <td>205-260</td>
+                            <td>220-280</td>
+                            <td>230-290</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+          </div>
+
+        </div>
+      </div>
+
+    <?php } else { ?>
+      <!-- type tab end-->
+      <!-- Features -->
+      <div class="container-fluid custom-container add-pad ">
+        <div class="row features custom-container-style">
+          <div class="col-md-12">
+            <h1>SUCCESS IN EVERY HARDNESS</h1>
+            <p>Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="<?php echo $successInEveryHardness[$id]['vimage'] ?>" class="img-fluid" alt="">
+          </div>
+          <?php
+          // foreach ($successInEveryHardness[$id]['200'] as $key => $val) {
+          //   // echo '<pre>';
+          //   print_r($key);
+          // }
+          ?>
+          <div class="col-md-8 scroll ">
+            <?php for ($i = 1; $i <= 10; $i++) { ?>
+              <div class="features-text-div">
+                <div class="row">
+                  <!-- <div class="col-md-2"> -->
+                  <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
+                  <!-- </div> -->
+                  <div class="col-md-10">
+                    <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
+                    <p><?php echo $successInEveryHardness[$id]['d' . $i] ?></p>
+                  </div>
+                </div>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </div>
+      <!-- Table -->
+      <?php include 'tables.php'; ?>
+    <?php } ?>
     <!-- Video slider -->
     <div class="image-gallery">
       <h1>Videos</h1>

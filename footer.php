@@ -16,10 +16,10 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
                 <p><b>For India sales and service:</b></p>
             </div>
             <div>
-                <p>Email: bpa@crushersagarwalla.com</p>
+                <p>Email: info@corecrushing.in</p>
             </div>
             <div>
-                <p>Contact : +91-8960375650, +91-8858888865</p>
+                <p>Contact : +91 88062 67888</p>
             </div>
 
             <div><iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d120625.03232534994!2d72.82365768161662!3d19.12816495542504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d19.190559999999998!2d72.9549033!4m5!1s0x3be7c9b3bdec7b01%3A0xdf289e3f9e855a4c!2s104%2C%20Terminal%209%2C%20Near%20Vile%20Parle%20Police%20Station%2C%20Nehru%20Road%2C%20Vile%20Parle%20(East)%2C%20Mumbai%20%E2%80%93%20400%20057%2C%20India.!3m2!1d19.0961486!2d72.85519!5e0!3m2!1sen!2sin!4v1711626946668!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
@@ -69,11 +69,11 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
             <label for="remark">Remark:</label>
             <textarea id="remark" name="remark" placeholder="Enter your remarks"></textarea>
         </div>
-        <div class="form-check">
+        <div class="form-check mb-3">
             <input type="checkbox" id="agree" name="agree" required>
             <label for="agree">I agree to terms and conditions</label>
         </div>
-        <input type="hidden" name="form_type" value="form2">
+        <input type="hidden" name="form_type" value="form2" >
         <button type="submit" name="send">Submit</button>
     </form> 
     <div>
@@ -182,7 +182,7 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
             <label for="remark">Remark:</label>
             <textarea id="remark" name="remark" placeholder="Enter your remarks"></textarea>
         </div>
-        <div class="form-check">
+        <div class="form-check mb-3">
             <input type="checkbox" id="agree" name="agree" required>
             <label for="agree">I agree to terms and conditions</label>
         </div>
@@ -281,3 +281,4 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
         Slider.init();
     });
 </script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->

@@ -691,12 +691,13 @@ body{
     top: 92%;
     left: 50%;
     transform: translate(-50%, -50%) !important;
-    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: rgba(255, 255, 255, 0.8); */
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
     margin-top: -30%;
 }
+
 
 .banne-new{
     height: 95vh;
@@ -838,4 +839,21 @@ body{
     .banne-new{
         height: 55vh !important;
     }
+}
+
+
+.typediv{
+    justify-content: center;
+}  
+.typediv .nav-link{
+    color: black;
+}
+.typediv .nav-link.active{
+    color: red;
+    background-color: #d2ad77;
+    font-weight: 700;
+}
+
+.card-typediv{
+    border: none;
 }

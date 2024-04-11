@@ -4,6 +4,7 @@
       <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="icon" type="image/x-icon" href="images/Favicon-01.webp">
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
           <link rel="stylesheet" href="style.css" />
           <link rel="stylesheet" href="slider-style.css" />
@@ -13,7 +14,9 @@
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
           <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<!-- bootstrap pills -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  
           <!-- <title>Document</title> -->
       </head>
 
@@ -40,7 +43,7 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
                           </div>
                           <!-- Link 2 -->
                           <div class="link-custom">
-                              <span><i class="fa fa-envelope p-2" aria-hidden="true"></i></span><span>info@corecrushing.com</span>
+                              <span><i class="fa fa-envelope p-2" aria-hidden="true"></i></span><span>info@corecrushing.in</span>
                           </div>
                       </div>
                   </div>
