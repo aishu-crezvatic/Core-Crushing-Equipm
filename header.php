@@ -7,6 +7,7 @@
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
           <link rel="stylesheet" href="style.css" />
           <link rel="stylesheet" href="slider-style.css" />
+          <link rel="stylesheet" href="responsive.css" />
           <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"> -->
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -26,13 +27,13 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
               <div class="container-fluid">
                   <div class="row align-items-center">
                       <!-- Logo -->
-                      <div class="col-lg-4 col-md-6 col-sm-12"> 
+                      <div class="col-lg-4 col-md-6 col-sm-3"> 
                           <a class="navbar-brand" href="<?php echo BASEURL; ?>">
                               <img class="my-logo" src="images/logo.webp" alt="">
                           </a>
                       </div>
                       <!-- Links -->
-                      <div class="col-lg-8 col-md-6 col-sm-12 d-flex justify-content-end">
+                      <div class="col-lg-8 col-md-6 col-sm-9 d-md-flex justify-content-end">
                           <!-- Link 1 -->
                           <div class="link-custom me-3">
                               <span><i class="fa-solid fa-phone p-2"></i></span><span>+91 88062 67888</span>
