@@ -91,7 +91,7 @@
 
       <div class="row">
         <!-- Product type 1 -->
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Jaw-Crushers.webp" class="img-fluid" alt="Jaw Crushers">
             <h6 class="card-title">Jaw Crushers</h6>
@@ -99,21 +99,21 @@
           </div>
         </div>
         <!-- Repeat similar structure for other product cards -->
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Core-Cone-Crushing-LH-200.webp" class="img-fluid" alt="Cone Crushers">
             <h6 class="card-title">Cone Crushers</h6>
             <a href="<?php echo BASEURL . 'productpage.php?id=1'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Sane-cone.webp" class="img-fluid" alt="Sander Cone">
             <h6 class="card-title">Sander Cone</h6>
             <a href="<?php echo BASEURL . 'productpage.php?id=2'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Vertical-Shaft-Impact-Crusher.webp" class="img-fluid" alt="Vertical Shaft Impact Crusher">
             <h6 class="card-title">Vertical Shaft Impact Crusher</h6>
@@ -126,21 +126,21 @@
 
       <div class="row two-products">
         <!-- Add more product cards here -->
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/High-Frequency-Screen.webp" class="img-fluid" alt="High Frequency Screen(HFS)">
             <h6 class="card-title">High Frequency Screen(HFS)</h6>
             <a href="<?php echo BASEURL . 'productpage.php?id=4'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Grizzly-Feeder.webp" class="img-fluid" alt="Grizzly Feeder">
             <h6 class="card-title">Grizzly Feeder</h6>
             <a href="<?php echo BASEURL . 'productpage.php?id=5'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Vibrating-screen.webp" class="img-fluid" alt="Vibrating Screen">
             <h6 class="card-title">Vibrating Screen</h6>
@@ -230,28 +230,28 @@
         </div> -->
 
       <div class="row text-center">
-        <div class="why-us">
+        <div class="col-md-3 col-6 whyus">
           <img src="images/WhyUsIcons/Experience-01-01.webp" class="img-fluid why-us-icon-bg" alt="" />
           <div>
             <!-- <img src="https://dummyimage.com/100x100/000000/d2ad77" class="img-fluid" alt="" /> -->
           </div>
           <p>Experience</p>
         </div>
-        <div class="why-us">
+        <div class="col-md-3 col-6 whyus">
           <img src="images/WhyUsIcons/Technology-01.webp" class="img-fluid why-us-icon-bg" alt="" />
           <div>
             <!-- <img src="https://dummyimage.com/100x100/000000/d2ad77" class="img-fluid" alt="" /> -->
           </div>
           <p>Cutting-Edge Technology</p>
         </div>
-        <div class="why-us">
+        <div class="col-md-3 col-6 whyus">
           <img src="images/WhyUsIcons/Customized-01.webp" class="img-fluid why-us-icon-bg" alt="" />
           <div>
             <!-- <img src="https://dummyimage.com/100x100/000000/d2ad77" class="img-fluid" alt="" /> -->
           </div>
           <p>Customised Solutions </p>
         </div>
-        <div class="why-us">
+        <div class="col-md-3 col-6 whyus">
           <img src="images/WhyUsIcons/Quality-01.webp" class="img-fluid why-us-icon-bg" alt="" />
           <div>
             <!-- <img src="https://dummyimage.com/100x100/000000/d2ad77" class="img-fluid" alt="" /> -->
