@@ -107,53 +107,8 @@ if (!isset($table_data[$id])) {
       </div>
     </div>
 
-
     <!-- Table -->
-
-    <div class="table-data">
-      <h1>Technical specification</h1>
-      <p><?php echo $table_data[$id]['tablepara'] ?></p>
-
-      <div class="elementor-widget-container">
-        <div class="pp-table-container">
-          <table class="tablesaw">
-            <colgroup>
-              <col span="1" class="">
-            </colgroup>
-            <thead>
-              <tr class="tab-heading">
-                <th><span>Model</span></th>
-                <th><span><?php echo $table_data[$id]['modal1'] ?></span></th>
-                <th><span><?php echo $table_data[$id]['modal2'] ?></span></th>
-                <th><span><?php echo $table_data[$id]['modal3'] ?></span></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="tab-data"><span>Size</span></td>
-                <td class="tab-data"><span><?php echo $table_data[$id]['modal1_data_1'] ?></span></td>
-                <td class="tab-data"><span><?php echo $table_data[$id]['modal2_data_1'] ?></span></td>
-                <td class="tab-data"><span><?php echo $table_data[$id]['modal3_data_1'] ?></span></td>
-              </tr>
-              <tr class="even-col">
-                <td class="tab-data"><span>Feeding Size</span></td>
-                <td class="tab-data"><span><?php echo $table_data[$id]['modal1_data_2'] ?></span></td>
-                <td class="tab-data"><span><?php echo $table_data[$id]['modal2_data_2'] ?></span></td>
-                <td class="tab-data"><span><?php echo $table_data[$id]['modal3_data_2'] ?></span></td>
-              </tr>
-              <tr>
-                <td class="tab-data"><span>Motor Capacity (kw)</span></td>
-                <td class="tab-data"><span><?php echo $table_data[$id]['modal1_data_3'] ?></span></td>
-                <td class="tab-data"><span><?php echo $table_data[$id]['modal2_data_3'] ?></span></td>
-                <td class="tab-data"><span><?php echo $table_data[$id]['modal3_data_3'] ?></span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-
+    <?php include 'tables.php'; ?>
     <!-- Video slider -->
     <div class="image-gallery">
       <h1>Videos</h1>

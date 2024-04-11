@@ -280,13 +280,18 @@ body {
 
 /* table */
 .tab-heading {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 1.1em;
     background-color: #d2ad77;
-    padding: 10px 15px 10px 15px;
     color: #000;
+}
+
+tr th, tbody tr td {
+    padding: 12px 5px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 .tab-data {
