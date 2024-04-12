@@ -196,7 +196,8 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     </div> 
 </div>
 <div class="footerimg">
-    <img src="images/navimage/Menu-header.webp" alt="dcv"> 
+    <p>Thank You</p>
+    <!-- <img src="images/navimage/button-bg-2.webp" alt="dcv">  -->
     </div>
 
 
