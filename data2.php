@@ -10,7 +10,7 @@
             '0' => array(
                 'image' => "images/product-banner/Jaw-Crusher-1.webp",
                 'title' => "OUR JAW CRUSHERS ARE ROBUST CRUSHERS",
-                'subtitle' => "OUR JAW CRUSHERS ARE ROBUST CRUSHERS22",
+                'subtitle' => "DESIGNED FOR PRIMARY APPLICATIONS",
                 'description' => 'They are designed to process hard-blasted rocks in quarrying and different ores in mining applications. Our Jaw has a 42 x 30 inch opening taking up to (-600mm) feed size and can operate at throughputs ranging from 120 TPH to 400 TPH. Our unique pitman and crushing chamber design enables the Jaw to seamlessly operate at multiple CSS values and crush materials to yield as low as (-120mm) output size.'
             ),
             '1' => array('image' => "images/product-banner/core-cone-crusher-1.webp", 'title' => "Cone Crushers ", 'subtitle' => "Lorem ipsom", 'description' => 'They are designed to process hard-blasted rocks in quarrying and different ores in mining applications. Our Jaw has a 42 x 30 inch opening taking up to (-600mm) feed size and can operate at throughputs ranging from 120 TPH to 400 TPH. Our unique pitman and crushing chamber design enables the Jaw to seamlessly operate at multiple CSS values and crush materials to yield as low as (-120mm) output size.'),
@@ -19,10 +19,9 @@
 
 
             '3' => array(
-                'image' => "images/product-banner/Vertical-Shaft-Impact-Crusher-2.webp", 'title' => "Vertical Shaft Impact Crusher",
-                'subtitle' => "SPECIALLY DESIGNED TO MAXIMIZE SAND PRODUCTION.",
-                'description' => 'Core VSI can take in throughputs of (-40mm) aggregates and produce highly cubicle products with a minimum flakiness ratio. We offer 2 models 1300R and 1400R – depending on the desired throughput (TPH)
-            '
+                'image' => "images/product-banner/Vertical-Shaft-Impact-Crusher-2.webp", 'title' => "OUR VSI IS DESIGNED TO PRODUCE HIGH-QUALITY",
+                'subtitle' => "SAND AND PREMIUM-SHAPED AGGREGATES.",
+                'description' => "Core VSI can take in throughputs of (-40mm) aggregates and produce highly cubicle products with a minimum flakiness ratio. We offer 2 models 1300R and 1400R – depending on the desired throughput (TPH) "
             ),
 
             '4' => array(
@@ -37,10 +36,9 @@
             ),
 
             '5' => array(
-                'image' => "images/product-banner/Grizzly-Feeder-2.webp", 'title' => " Grizzly feede ",
+                'image' => "images/product-banner/Grizzly-Feeder-2.webp", 'title' => "Grizzly Feeders",
                 'subtitle' => " Core's Vibrating Grizzly Feeders: Optimal efficiency guaranteed.",
                 'description' => " Core's Vibrating Grizzly Feeders are the premier choice in modern crushing circuits, seamlessly combining scalping and feeding functions. Engineered to handle large volumes of ROQ and ROM materials, they ensure continuous, uniform, and controlled feed from hopper to crusher. 
-
                 Positioned ahead of primary crushers, they efficiently process larger rocks while scalping out undersized material through grizzly bars, enhancing primary station capacity. Suitable for both portable and static installations, Core's feeders guarantee reliability and efficiency, optimizing aggregate production processes.
                 "
             ),

@@ -11,6 +11,14 @@ body {
     background-size: cover;
 }
 
+.footerimg{
+    background-image: url(images/navimage/button-bg-2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25px;
+}
+
 @media screen and (min-width: 768px) {
     .navbar-brand {
         margin-right: 0;
@@ -109,7 +117,7 @@ body {
 }
 
 .OurProducts h4 {
-    text-align: left;
+    /* text-align: left; */
     margin: 30px 0 10px;
 }
 
@@ -200,7 +208,7 @@ body {
     margin: 45px auto;
 }
 .contact-us-two form {
-    height: 450px; 
+    height: 585px; 
     overflow-y: auto;
 }
 
