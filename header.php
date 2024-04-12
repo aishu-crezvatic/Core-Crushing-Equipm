@@ -36,7 +36,7 @@ define("BASEURL", "https://labindiadigital.com/coreCrushing/");
                           </a>
                       </div>
                       <!-- Links -->
-                      <div class="col-lg-8 col-md-6 col-sm-9 d-md-flex justify-content-end">
+                      <div class="col-lg-8 col-md-6 col-sm-9 d-lg-flex justify-content-end mobile-header-360">
                           <!-- Link 1 -->
                           <div class="link-custom me-3">
                               <span><i class="fa-solid fa-phone p-2"></i></span><span>+91 88062 67888</span>

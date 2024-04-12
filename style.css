@@ -193,6 +193,7 @@ body {
 
 .contact-us-one {
     padding: 31px;
+    margin-top: 20px;
 }
 
 .contact-us-two{
@@ -203,6 +204,10 @@ body {
     overflow-y: auto;
 }
 
+
+.contact-form-heading{
+    margin-left: 25px!important;
+}
 .contact-us-two form::-webkit-scrollbar, .features-text::-webkit-scrollbar {
     width: 5px; /* Adjust the width of the scrollbar */
     height: 20px;
@@ -837,7 +842,7 @@ body{
     }
 
     .banne-new{
-        height: 55vh !important;
+        height: 70vh !important;
     }
 }
 

@@ -5,7 +5,7 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     <!-- JAw crusher-->
     <div class="table-data">
         <h1>Technical specification</h1>
-        <p>Equip your facility with our complete Jaw crusher, including motor and pulley, and customize with optional extras like feed chute and drive motor.</p>
+        <p class="table-para">Equip your facility with our complete Jaw crusher, including motor and pulley, and customize with optional extras like feed chute and drive motor.</p>
 
         <div class="elementor-widget-container">
             <div class="pp-table-container">
@@ -50,7 +50,7 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     <!-- t1 200-->
     <div class="table-data">
         <h1>Technical specification SH 200 Cone</h1>
-        <p>The Core SH 200 Cone boasts cast top and bottom shells for enduring crushing loads, a hydraulically supported forged alloy main shaft assembly with push-button control, and specially designed mantle and concave profiles for consistent feed opening retention. Its all-roller bearing design ensures high load capacity and constant alignment, reducing frictional losses and enabling variable operational speeds. The built-in hydraulic rotary feed distributor optimizes material distribution for increased wear life and enhanced capacity.</p>
+        <p class="table-para">The Core SH 200 Cone boasts cast top and bottom shells for enduring crushing loads, a hydraulically supported forged alloy main shaft assembly with push-button control, and specially designed mantle and concave profiles for consistent feed opening retention. Its all-roller bearing design ensures high load capacity and constant alignment, reducing frictional losses and enabling variable operational speeds. The built-in hydraulic rotary feed distributor optimizes material distribution for increased wear life and enhanced capacity.</p>
 
         <div class="elementor-widget-container">
             <div class="pp-table-container table-responsive">
@@ -221,7 +221,7 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     <!-- Sander cone -->
     <div class="table-data">
         <h1>Technical specification</h1>
-        <p>Setting new standards in precision and performance.</p>
+        <p class="table-para">Setting new standards in precision and performance.</p>
 
         <div class="elementor-widget-container">
             <div class="pp-table-container">
@@ -262,7 +262,7 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     <!-- Vertical Shift impact crusher --> 
     <div class="table-data">
         <h1>Technical specification</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae similique porro fugit at nisi quam ipsum unde, incidunt inventore nesciunt explicabo maxime sunt esse quisquam, distinctio quas. Pariatur, dicta nisi.</p>
+        <p class="table-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae similique porro fugit at nisi quam ipsum unde, incidunt inventore nesciunt explicabo maxime sunt esse quisquam, distinctio quas. Pariatur, dicta nisi.</p>
 
         <div class="elementor-widget-container">
             <div class="pp-table-container">
@@ -303,7 +303,7 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     <!-- High Frequency Screen -->
     <div class="table-data">
         <h1>Technical specification</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae similique porro fugit at nisi quam ipsum unde, incidunt inventore nesciunt explicabo maxime sunt esse quisquam, distinctio quas. Pariatur, dicta nisi.</p>
+        <p class="table-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae similique porro fugit at nisi quam ipsum unde, incidunt inventore nesciunt explicabo maxime sunt esse quisquam, distinctio quas. Pariatur, dicta nisi.</p>
 
         <div class="elementor-widget-container">
             <div class="pp-table-container">
@@ -330,7 +330,7 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     <!-- Grizzly Feeders -->
     <div class="table-data">
         <h1>Technical specification</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae similique porro fugit at nisi quam ipsum unde, incidunt inventore nesciunt explicabo maxime sunt esse quisquam, distinctio quas. Pariatur, dicta nisi.</p>
+        <p class="table-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae similique porro fugit at nisi quam ipsum unde, incidunt inventore nesciunt explicabo maxime sunt esse quisquam, distinctio quas. Pariatur, dicta nisi.</p>
 
         <div class="elementor-widget-container">
             <div class="pp-table-container">
@@ -369,7 +369,7 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     <!-- Vibrating screen -->
     <div class="table-data">
         <h1>Technical specification</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae similique porro fugit at nisi quam ipsum unde, incidunt inventore nesciunt explicabo maxime sunt esse quisquam, distinctio quas. Pariatur, dicta nisi.</p>
+        <p class="table-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae similique porro fugit at nisi quam ipsum unde, incidunt inventore nesciunt explicabo maxime sunt esse quisquam, distinctio quas. Pariatur, dicta nisi.</p>
 
         <div class="elementor-widget-container">
             <div class="pp-table-container">

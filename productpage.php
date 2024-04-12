@@ -57,7 +57,7 @@ if (!isset($table_data[$id])) {
       <div class="product-hero-content">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-6">
+            <div class="col-md-12 col-sm-12">
               <div class="hero-text">
                 <h1><?php echo $Prod_Banner[$id]['title'] ?></h1>
                 <h3 style="color:red"><?php echo $Prod_Banner[$id]['subtitle'] ?></h3>
@@ -65,11 +65,11 @@ if (!isset($table_data[$id])) {
                 <a class="btn inquire-now" data-bs-toggle="modal" data-bs-target="#contactFormModal">Inquire Now</a>
               </div>
             </div>
-            <div class="col-md-6">
+            <!-- <div class="col-md-6 col-sm-12">
               <div class="additional-content">
-                <!-- <img src="path/to/your/image.jpg" class="img-fluid" alt="Additional Content" /> -->
+               
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -94,7 +94,7 @@ if (!isset($table_data[$id])) {
               <div class="row features custom-container-style">
                 <div class="col-md-12">
                   <h1>SUCCESS IN EVERY HARDNESS</h1>
-                  <p>Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
+                  <p class="product-para">Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
                 </div>
               </div>
               <div class="row">
@@ -107,19 +107,20 @@ if (!isset($table_data[$id])) {
                 //   print_r($key);
                 // }
                 ?>
-                <div class="col-md-8 scroll ">
+                <div class="col-md-8 scroll">
                   <?php for ($i = 1; $i <= 10; $i++) { ?>
                     <div class="features-text-div">
-                      <div class="row">
-                        <!-- <div class="col-md-2"> -->
-                        <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
+                        <!-- <div class="row"> -->
+                          <div class="feature-image">
+                            <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
+                          </div>
+                          <div class="feature-content">
+                            <h4><?php echo $successInEveryHardness[$id]['h'. $i] ?></h4>
+                            <p><?php echo $successInEveryHardness[$id]['d'. $i] ?></p>
+                          </div>
                         <!-- </div> -->
-                        <div class="col-md-10">
-                          <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
-                          <p><?php echo $successInEveryHardness[$id]['d' . $i] ?></p>
-                        </div>
-                      </div>
                     </div>
+
                   <?php } ?>
                 </div>
               </div>
@@ -201,7 +202,7 @@ if (!isset($table_data[$id])) {
               <div class="row features custom-container-style">
                 <div class="col-md-12">
                   <h1>SUCCESS IN EVERY HARDNESS</h1>
-                  <p>Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
+                  <p class="product-para">Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
                 </div>
               </div>
               <div class="row">
@@ -214,18 +215,18 @@ if (!isset($table_data[$id])) {
                 //   print_r($key);
                 // }
                 ?>
-                <div class="col-md-8 scroll ">
+                <div class="col-md-8 scroll">
                   <?php for ($i = 1; $i <= 10; $i++) { ?>
                     <div class="features-text-div">
-                      <div class="row">
-                        <!-- <div class="col-md-2"> -->
-                        <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
-                        <!-- </div> -->
-                        <div class="col-md-10">
-                          <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
-                          <p><?php echo $successInEveryHardness[$id]['d' . $i] ?></p>
+                     <!--  <div class="row"> -->
+                        <div class="feature-image">
+                          <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
+                        </div> 
+                        <div class="feature-content">
+                          <h4><?php echo $successInEveryHardness[$id]['h'.$i] ?></h4>
+                          <p><?php echo $successInEveryHardness[$id]['d'.$i] ?></p>
                         </div>
-                      </div>
+                      <!-- </div> -->
                     </div>
                   <?php } ?>
                 </div>
@@ -346,7 +347,7 @@ if (!isset($table_data[$id])) {
         <div class="row features custom-container-style">
           <div class="col-md-12">
             <h1>SUCCESS IN EVERY HARDNESS</h1>
-            <p>Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
+            <p class="product-para">Wide range of crushing for soft to very hard materials. For various materials, crushing efficiency is increased by different jaw types.</p>
           </div>
         </div>
         <div class="row">
@@ -362,15 +363,15 @@ if (!isset($table_data[$id])) {
           <div class="col-md-8 scroll ">
             <?php for ($i = 1; $i <= 10; $i++) { ?>
               <div class="features-text-div">
-                <div class="row">
-                  <!-- <div class="col-md-2"> -->
-                  <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
-                  <!-- </div> -->
-                  <div class="col-md-10">
+                <!-- <div class="row"> -->
+                  <div class="feature-image">
+                       <img src="images/Favicon-01.webp" class="icon-n img-fluid" alt="product-banner">
+                  </div>
+                  <div class="feature-content">
                     <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
                     <p><?php echo $successInEveryHardness[$id]['d' . $i] ?></p>
                   </div>
-                </div>
+                <!-- </div> -->
               </div>
             <?php } ?>
           </div>

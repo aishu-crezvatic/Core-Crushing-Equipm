@@ -12,6 +12,21 @@
     .card-text-CTA {
         width: 100%;
     }
+
+    .my-logo {
+       width: 48%!important;
+       top: -6px !important;
+    }
+
+    .hero-text {
+       margin-top: -10% !important;
+       margin-left: -15px !important;
+      width: 100% !important;
+    }
+
+    .custom-container-style {
+      margin-top: 10px!important;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -41,7 +56,7 @@
         width: 100%;
     }
     .mobile-custom-space {
-        margin: 50px 0;
+        margin: 15px 0;
     }
     .mobile-custom-space h3 {
         font-size: 1.7rem;
@@ -52,6 +67,43 @@
     .call-email button {
         margin: 10px 0;
         font-size: 17px;
+    }
+    .hero-text {
+        margin-top: -100%;
+        margin-left: -60px;
+        width: 65%;
+    }
+    .features{
+        background-image: none;
+    }
+
+    .features-text-div{
+       display: inline-flex;
+       margin-top: 20px;
+    }
+    .feature-content{
+       margin-left: 15px;
+    }
+    .icon-n {
+        height: 55px;
+        width: 75px;
+        margin-left: -2px;
+   }
+
+   .image-gallery, .table-data{
+     margin: 55px 10px;
+   }
+
+   .table-para{
+      text-align: center;
+   }
+
+   .custom-container-style{
+      margin-top: -20px;
+   }
+
+   .inquire-now {
+        width: 45% !important;
     }
 }
 
@@ -94,6 +146,42 @@
     }
     .call-email {
         margin: 15px 0;
+    }
+
+    .hero-text{
+        margin-top: -85%;
+        width: 96%;
+    }
+    .product-para{
+       text-align: center;
+    }
+    .features-text-div{
+        display: inline-flex;
+        margin-top: 20px;
+    }
+    .feature-content{
+      margin-left: 20px;
+    }
+
+    .image-gallery, .table-data{
+        margin: 55px 5px;
+        text-align: center;
+    }
+
+    .table-para{
+       text-align: center;
+    }
+
+    .contact-form-heading {
+       margin-left: 7px !important;
+    }
+
+    .contact-us-two {
+        margin: 10px auto;
+    }
+
+    .inquire-now {
+        width: 45% !important;
     }
 }
 
@@ -142,8 +230,33 @@
     }
     .card-text-CTA {
         width: 100%;
+        text-align: center;
     }
     .call-email {
         margin: 15px 0;
     }
+
+
+    .my-logo{
+        width: 36%;
+        top: -10px;
+    }
+
+    .mobile-header-360{
+       margin-top: -70px;
+    }
+
+    .inquire-now {
+    width: 86% !important;
+    margin-top: 8px!important;
+    }
+
+    .hero-text {
+        margin-top: -120%;
+        width: 96%;
+    } 
+
+    .feature-content {
+       margin-left: 10px;
+   }
 }
