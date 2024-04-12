@@ -50,8 +50,6 @@
       </div>
     </nav> -->
 
-
-
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-toggle="modal" data-bs-target="#contactFormModal">
@@ -94,7 +92,7 @@
         <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Jaw-Crushers.webp" class="img-fluid" alt="Jaw Crushers">
-            <h6 class="card-title">Jaw Crushers</h6>
+            <h4 class="card-title">Jaw Crushers</h4>
             <a href="<?php echo BASEURL . 'productpage.php?id=0'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
@@ -102,21 +100,21 @@
         <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Core-Cone-Crushing-LH-200.webp" class="img-fluid" alt="Cone Crushers">
-            <h6 class="card-title">Cone Crushers</h6>
+            <h4 class="card-title">Cone Crushers</h4>
             <a href="<?php echo BASEURL . 'productpage.php?id=1'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Sane-cone.webp" class="img-fluid" alt="Sander Cone">
-            <h6 class="card-title">Sander Cone</h6>
+            <h4 class="card-title">Sander Cone</h4>
             <a href="<?php echo BASEURL . 'productpage.php?id=2'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Vertical-Shaft-Impact-Crusher.webp" class="img-fluid" alt="Vertical Shaft Impact Crusher">
-            <h6 class="card-title">Vertical Shaft Impact Crusher</h6>
+            <h4 class="card-title">Vertical Shaft Impact Crusher</h4>
             <a href="<?php echo BASEURL . 'productpage.php?id=3'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
@@ -129,28 +127,28 @@
         <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/High-Frequency-Screen.webp" class="img-fluid" alt="High Frequency Screen(HFS)">
-            <h6 class="card-title">High Frequency Screen(HFS)</h6>
+            <h4 class="card-title">High Frequency Screen(HFS)</h4>
             <a href="<?php echo BASEURL . 'productpage.php?id=4'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Grizzly-Feeder.webp" class="img-fluid" alt="Grizzly Feeder">
-            <h6 class="card-title">Grizzly Feeder</h6>
+            <h4 class="card-title">Grizzly Feeder</h4>
             <a href="<?php echo BASEURL . 'productpage.php?id=5'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <div class="col-sm-6 col-12 col-md-3">
           <div class="productcard">
             <img src="images/products/Vibrating-screen.webp" class="img-fluid" alt="Vibrating Screen">
-            <h6 class="card-title">Vibrating Screen</h6>
+            <h4 class="card-title">Vibrating Screen</h4>
             <a href="<?php echo BASEURL . 'productpage.php?id=6'; ?>" class="btn readmore">VIEW MORE +</a>
           </div>
         </div>
         <!-- <div class="col-sm-3">
             <div class="productcard">
                 <img src="https://dummyimage.com/200x200/d2ad77/d2ad77" class="img-fluid" alt="Pan Feeders">
-                <h6 class="card-title">Pan Feeders</h6>
+                <h4 class="card-title">Pan Feeders</h4>
                 <a href="#" class="btn readmore">VIEW MORE +</a>
             </div>
         </div> -->

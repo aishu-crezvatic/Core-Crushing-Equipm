@@ -13,6 +13,13 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
             </div> <br>
 
             <div style="display: flex;">
+                <p><b>BRANCH OFFICE: </b></p>
+            </div>
+            <div>
+                <p>7-1-58, 304 B, The Concourse, 3rd Floor, Beside Amrutha Business Complex, Greenlands, Ameerpet, Hyderabad – 500016, Telangana, India.</p>
+            </div> <br>
+
+            <div style="display: flex;">
                 <p><b>For India sales and service:</b></p>
             </div>
             <div>

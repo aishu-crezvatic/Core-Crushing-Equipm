@@ -383,7 +383,7 @@ if (!isset($table_data[$id])) {
     <div class="image-gallery">
       <h1>Videos</h1>
       <div class="swiper mySwiper2">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper w-50">
           <div class="swiper-slide">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/nr37KBnv0HA?si=LziSbCp13HuJ6_T-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -500,15 +500,15 @@ if (!isset($table_data[$id])) {
     <!-- Video slider style -->
     <script>
       var swiper = new Swiper(".mySwiper2", {
-        effect: "coverflow",
+         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: "auto",
         coverflowEffect: {
-          rotate: 10,
+          rotate: 0,
           stretch: 0,
-          depth: 350,
-          // modifier: 1,
+          depth: 300,
+          modifier: 1,
           slideShadows: true,
         },
         pagination: {
@@ -522,9 +522,18 @@ if (!isset($table_data[$id])) {
           loop: true
         },
         initialSlide: 3, // Start from the third slide (index 2)
-        spaceBetween: 250, // Adjust this value as needed for the desired space
+        spaceBetween: 150, // Adjust this value as needed for the desired space
 
       });
+      // Pause Swiper autoplay on hover over video
+    document.querySelectorAll('.swiper-slide video').forEach(function(video) {
+        video.addEventListener('mouseenter', function() {
+            swiper.autoplay.stop();
+        });
+        video.addEventListener('mouseleave', function() {
+            swiper.autoplay.start();
+        });
+    });
     </script>
 
     <!-- footer -->
