@@ -193,8 +193,11 @@ $id = isset($_GET['id']) ? intval($_GET['id']) : 0; // Get the value of 'id' par
     <?php }  ?>
     
         </div>
-    </div>
+    </div> 
 </div>
+<div class="footerimg">
+    <img src="images/navimage/Menu-header.webp" alt="dcv"> 
+    </div>
 
 
 

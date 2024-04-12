@@ -22,7 +22,7 @@
 
       <?php  
 $id = isset($_GET['id']) ? $_GET['id'] : null; 
-define("BASEURL", "https://labindiadigital.com/coreCrushing/");
+define("BASEURL", "https://coreCrushing.in/");
 ?>
       <body>
           
