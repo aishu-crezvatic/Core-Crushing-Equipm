@@ -1,0 +1,40 @@
+.h1-style{
+    font-size: 2rem;
+}
+
+.container-custom-1 {
+    margin: 30px 40px;
+}
+/* About us section on home page by aishwarya */
+.cust-h4 {
+    color: red;
+    /* font-size: 1.5rem; */
+    margin: 15px 0;
+    border: 1px solid red;
+    width: fit-content;
+    /* justify-content: center; */
+    /* margin: auto; */
+    padding: 10px 16px;
+    /* border-radius: 30px; */
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #fff6f5;
+    font-weight: 700;
+}
+
+.papa-container h1{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.about-para {
+    /* margin: auto; */
+    /* width: 78%; */
+}
+
+.about-subtitle {
+    font-weight: 700;
+    font-style: italic;
+    line-height: 30px;
+}

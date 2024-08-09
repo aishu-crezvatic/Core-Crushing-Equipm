@@ -1,0 +1,550 @@
+.about-us-image{
+    aspect-ratio: 1;
+    display: grid;
+    /* outline: 5px solid #d4b585; */
+    /* outline-style: dotted; */
+    transition: .5s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.about-us-image img{
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+    z-index: -1;
+    transition: .5s;
+    padding: 100px;  
+}
+.about-content-col {
+    margin: auto;
+}
+.about-content h1{
+    font-size: 40px;
+    line-height: 1.28em;
+    color: #222222;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.whychooseus, .ourclients{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.whychooseus h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.28em;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+.ourclients h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.28em;
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.ourclients h2:before{
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: 15px;
+    right: 220px;
+    width: 60px;
+    height: 3px;
+    background-color: #E41E26;
+    margin: auto;
+}
+
+
+.vm-background {
+    display: inline-block;
+    position: relative;
+}
+
+.vm-background::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    /* Adjust the thickness of the underline */
+    background-color: #FF6F6F;
+    /* Adjust the color of the underline */
+    bottom: -6px;
+    /* Adjust the position of the underline */
+    left: 0;
+    transform: scaleX(1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.vm-background:hover::after {
+    transform: scaleX(0);
+    transform-origin: bottom left;
+}
+
+
+.whychooseus h2:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: 15px;
+    right: 280px;
+    width: 60px;
+    height: 3px;
+    background-color: #d1d2d6;
+    margin: auto;
+    }
+
+/* Mission vision */ 
+
+img {
+max-width: 100%;
+height: auto;
+}
+section {
+    padding: 60px 0;
+   /* min-height: 100vh;*/
+}
+
+.sec-title{
+position:relative;
+z-index: 1;
+margin-bottom:60px;
+}
+
+.sec-title .title{
+position: relative;
+display: block;
+font-size: 18px;
+line-height: 24px;
+color: #00aeef;
+font-weight: 500;
+margin-bottom: 15px;
+}
+
+.sec-title h2{
+position: relative;
+display: block;
+font-size:40px;
+line-height: 1.28em;
+color: #222222;
+font-weight: 600;
+padding-bottom:18px;
+}
+
+.sec-title h2:before{
+position:absolute;
+content:'';
+left:0px;
+bottom:0px;
+width:50px;
+height:3px;
+background-color:#d1d2d6;
+}
+
+.sec-title .text{
+position: relative;
+font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-weight: 400;
+margin-top: 35px;
+}
+
+.sec-title.light h2{
+color: #ffffff;
+}
+
+.sec-title.text-center h2:before{
+left:50%;
+margin-left: -25px;
+}
+
+.list-style-one{
+position:relative;
+}
+
+.list-style-one li{
+position:relative;
+font-size:16px;
+line-height:26px;
+color: #222222;
+font-weight:400;
+padding-left:35px;
+margin-bottom: 12px;
+}
+
+.about-section{
+position: relative;
+/* padding: 120px 0 70px; */
+background-color: #fff;
+}
+
+/* .about-section .sec-title{
+margin-bottom: 45px;
+} */
+
+.about-section .content-column{
+position: relative;
+/* margin-bottom: 50px; */
+margin: auto;
+}
+
+.about-section .content-column .inner-column{
+position: relative;
+padding-left: 30px;
+}
+
+.about-section .text{
+margin-bottom: 20px;
+margin-top: 20px;
+font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-weight: 400;
+}
+
+.about-section .list-style-one{
+margin-bottom: 45px;
+}
+
+.about-section .btn-box{
+position: relative;
+}
+
+.about-section .btn-box a{
+padding: 15px 50px;
+}
+
+.about-section .image-column{
+position: relative;
+}
+
+.about-section .image-column .text-layer{
+position: absolute;
+right: -110px;
+top: 50%;
+font-size: 325px;
+line-height: 1em;
+color: #ffffff;
+margin-top: -175px;
+font-weight: 500;
+}
+
+.about-section .image-column .inner-column{
+position: relative;
+padding-left: 80px;
+padding-bottom: 0px;
+}
+.about-section .image-column .inner-column .author-desc{
+position: absolute;
+    bottom: 16px;
+    z-index: 1;
+    background: #e41e26;
+    padding: 20px 39px;
+    /* left: 0;
+    right: 0; */
+    width: calc(100% - 160px);
+    border-radius: 50px;
+    align-items: center;
+    margin: auto;
+}
+.about-section .image-column .inner-column .author-desc h2{
+font-size: 21px;
+letter-spacing: 1px;
+text-align: center;
+color: #fff;
+margin: 0;
+}
+.about-section .image-column .inner-column .author-desc span{
+font-size: 16px;
+letter-spacing: 6px;
+text-align: center;
+color: #fff;
+display: block;
+font-weight: 400;
+}
+
+/* .about-section .image-column .inner-column:before{
+content: '';
+position: absolute;
+width: calc(50% + 80px);
+height: calc(100% + 160px);
+top: -80px;
+left: -3px;
+background: transparent;
+z-index: 0;
+border: 30px solid #d1d2d6;
+} */
+
+.about-section .image-column .image-1{
+position: relative;
+}
+.about-section .image-column .image-2{
+position: absolute;
+left: 0;
+bottom: 0;
+}
+
+.about-section .image-column .image-2 img,
+.about-section .image-column .image-1 img{
+box-shadow: 0 30px 50px rgba(8,13,62,.15);
+border-radius: 46px;
+}
+
+.about-section .image-column .video-link{
+position: absolute;
+left: 70px;
+top: 170px;
+}
+
+.about-section .image-column .video-link .link{
+position: relative;
+display: block;
+font-size: 22px;
+color: #191e34;
+font-weight: 400;
+text-align: center;
+height: 100px;
+width: 100px;
+line-height: 100px;
+background-color: #ffffff;
+border-radius: 50%;
+box-shadow: 0 30px 50px rgba(8,13,62,.15);
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
+}
+
+.about-section .image-column .video-link .link:hover{
+background-color: #191e34;
+}
+.brand-thumb{
+    justify-content: center;
+    display: flex;
+}
+
+/* <-- crezvatic brand area Css -->  */
+.brand-thumb img {
+    opacity: 0.7;
+    transition: .3s;
+    -webkit-filter: grayscale(1);
+}
+.crezvatic-single-brand:hover .brand-thumb img{
+    opacity: 1;
+    filter: none;
+}
+/*  */
+
+/*====================================================
+--< crezvatic counter Area Css -->
+======================================================*/
+.crezvatic-single-counter-box {
+    background: url("http://wp.crezvaticsolution.net/crezvatic/crezvatic-handyman/wp-content/uploads/2021/04/counter-bg1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 28px 20px 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.counter-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.counter-icon i {
+    font-size: 60px;
+    display: inline-block;
+    color: #fff;
+}
+.counter-title h4 {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 2px;
+}
+/*style two*/
+.col-lg-6.padding-uper {
+    padding-right: 5px;
+}
+.crezvatic-single-counter-box.uper {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.crezvatic-single-counter-box1.uper {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.crezvatic-single-counter-box1 {
+    padding: 28px 20px 40px;
+    background: #E0EAFC;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.counter-icon1 i {
+    font-size: 60px;
+    display: inline-block;
+    color: #FC9615;
+} 
+.counter-text1 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+.counter-title1 h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.crezvatic-counter-text {
+    display: flex;
+    margin-bottom: 2px;
+}
+.counter-text-icon i {
+    color: #FC9615;
+    display: inline-block;
+    font-size: 30px;
+}
+.right-box {
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 12px;
+}
+/*style three*/
+/* .counter-area.style-two {
+    background: #d1b07e  url(assets/images/resource/contact.png);
+    padding: 95px 0;
+} */
+.style-two .crezvatic-single-counter-box {
+    background: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 28px 20px 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.style-two .counter-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    color: #1c1c24;
+}
+.style-two .counter-icon i {
+    font-size: 60px;
+    display: inline-block;
+    color: #FC9615;
+}
+.style-two .counter-title h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+    margin-top: 2px;
+    color: #1c1c24;
+}
+/*dark*/
+.dark.style-two .crezvatic-single-counter-box {
+    background: #0B2653;
+}
+.dark.style-two .counter-text h1 {
+    color: #fff;
+}
+.dark.style-two .counter-title h4 {
+    color: #fff;
+}
+/*style four*/
+.counter-area.style-three {
+    background: url(assets/images/shape/subscribe.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.style-three .crezvatic-single-counter-box {
+    background: inherit;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.style-three .counter-icon {
+    float: left;
+    margin-right: 20px;
+}
+.style-three .counter-text h1 {
+    font-size: 34px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    text-align: left;
+}
+.style-three .counter-title h4 {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 2px;
+    text-align: left;
+}
+/*dark version*/
+.counter-area.dark-version {
+    background: #011936;
+}
+.dark-version .crezvatic-single-counter-box1 {
+    padding: 28px 20px 40px;
+    background: #0B2653;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.single-counter-box-inner{
+    border-left: 2px solid red;
+}
+/*====================================================
+--< crezvatic contact form Area Css -->
+======================================================*/
+
+@media screen and (max-width: 768px) {
+    .about-section .text{
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .about-section .text{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-section .text{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about-section .text{
+        text-align: left;
+    }
+}
+
+

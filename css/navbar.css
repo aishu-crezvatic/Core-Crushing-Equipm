@@ -1,0 +1,146 @@
+.navnar-all-links {
+	color: black !important;
+	z-index: 99;
+	background-color: #f8f9fa;
+}
+.phoneNemail{
+	background-color: #D2AD77 !important;
+}
+.navnar-all-links .navbar-nav  .nav-link.active {
+	color: red !important;
+}
+.navnar-all-links .navbar-nav .nav-link {
+	color: black !important;
+	margin: 0 35px;
+	font-weight: 900;
+font-size: 18px;
+}
+.navbar { 
+    --bs-navbar-padding-y: 0.0rem;
+}
+/* .logo-container{
+	justify-content: center;
+    display: flex;
+} */
+
+.my-logo {
+	height: auto;
+    width: 144PX;
+    position: relative; 
+    z-index: 1;
+	/* top: -20px; */
+    left: -45px;
+}
+.dropdown-toggle::after{
+	color: #e41e26;
+}
+.fa-phone:before, .fa-envelope:before {
+	color: #e41e26;
+}
+
+.logo-hamburger{
+	display: flex;
+}
+
+.float-end{
+	float: right !important;
+    right: 5px;
+    position: absolute;
+}
+
+/* .navnar-all-links .navbar-nav .nav-link {
+	color: black !important;
+	margin: 0 20px;
+	font-weight: 900;
+font-size: 18px;
+}
+
+.nav-hamburger{
+	justify-content: end;
+}
+
+.nav-phoneno{
+	justify-content: start;
+    display: flex;
+    margin-top: 18px;
+} */
+@media all and (min-width: 992px) {
+
+	/* .navnar-all-links .navbar-nav .nav-link {
+		color: black !important;
+		margin: 0 20px;
+		font-weight: 900;
+    font-size: 18px;
+	} */
+
+	/* .navnar-all-links .navbar-nav  .nav-link.active {
+		color: red !important;
+	} */
+
+	.dropdown-menu {
+		width: auto;
+	}
+
+	.mega-submenu {
+		left: 100%;
+		top: 0;
+		min-width: 25rem;
+	}
+
+	.ktm-mega-menu {
+		position: static;
+	}
+
+	.mega-menu {
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+
+	.dropdown-menu li {
+		position: relative;
+	}
+
+	.dropdown-menu .submenu {
+		display: none;
+		left: 100%;
+		top: 0;
+	}
+
+	.dropdown-menu>li:hover>.submenu,
+	.dropdown:hover>.dropdown-menu {
+		display: block;
+	}
+}
+.link-custom-maina{
+	float: right;
+    width: 430px;
+    text-align: right;
+    color: #000;
+	width: auto;
+	margin: auto;
+}
+
+
+.link-custom-main a{
+    color: #000;
+	font-weight: 900;
+}
+
+/* Active on hover and on click */
+
+/* Active state for hover */
+.navbar-nav .nav-item:hover .nav-link {
+    color: red !important;
+}
+
+/* Active state for click */
+.navbar-nav .nav-item:focus .nav-link {
+    color: red !important;
+}
+
+/* Active state for dropdown items */
+.navbar-nav .nav-item:hover .dropdown-menu .nav-link,
+.navbar-nav .nav-item:focus .dropdown-menu .nav-link {
+    color: red !important;
+}

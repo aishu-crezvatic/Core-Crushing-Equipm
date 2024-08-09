@@ -1,0 +1,98 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+
+/* .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  } */
+.swiper-slide iframe {
+  display: block;
+  width: 100%;
+}
+
+
+/* form style */
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px; 
+  background: #FFE7C5; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #e41e26;
+  border-radius: 4px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+  /* box-sizing: border-box; */
+  font-size: 14px;
+
+}
+
+input:focus {
+  outline: none;
+  border-color: rgba(231, 221, 221, 0.35);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  background-color: #b0141a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #e7090a;
+}
+
+.form-check input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.form-check label {
+  display: inline;
+  font-weight: normal;
+}

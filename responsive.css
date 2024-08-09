@@ -1,0 +1,1245 @@
+@media screen and (max-width: 768px) {
+    .category-sub-title {
+        margin-top: 80px;
+    }
+    .mobile-email-link {
+        display: none !important;
+    }
+
+    .contact-us-form {
+        left: 0px;
+        height: 500px;
+        top: 30px;
+    }
+
+    .contact-us-googal-map {
+        padding-left: 0px;
+    }
+
+    .map-form-section {
+        margin-top: 0px;
+    }
+
+    .we_would_love {
+        margin-top: 110px;
+    }
+
+    .card-typediv {
+        top: 410px;
+    }
+
+    .banner-desk {
+        display: block !important;
+    }
+
+    .Applications {
+        margin-top: 250px;
+    }
+
+    .header-row {
+        padding: 15px 0px;
+    }
+
+    .for-desktop {
+        display: block;
+    }
+
+    .for-mobile {
+        display: none;
+    }
+
+    .for-mobile img {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .banner-mob {
+        display: none !important;
+    }
+
+    .contact-us-one p {
+        text-align: left;
+    }
+
+    .owl-nav,
+    .owl-dots {
+        display: none;
+    }
+
+    .whyus p {
+        text-align: center;
+    }
+
+    .card-text-CTA {
+        width: 100%;
+    }
+
+    .my-logo {
+        /* width: 48%!important;
+       top: -6px !important; */
+        width: 40% !important;
+        /* top: -6px !important; */
+        /* margin: auto; */
+        padding: 10px;
+        top: 0px;
+        left: 0px;
+    }
+
+
+    /* .hero-text {
+       margin-top: -10% !important;
+       width: 100% !important;
+    } */
+
+    .hero-text {
+        margin-top: 65% !important;
+        width: 96% !important;
+        margin-left: 5px !important;
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .custom-container-style {
+        margin-top: 10px !important;
+    }
+    .custom-container-style-2 {
+        margin-top: 10px !important;
+    }
+
+    .table-data::after,
+    .Applications::after {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .logo-hamburger button {
+        margin: 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .about-us-banner {
+        margin: 0px 0;
+    }
+    .product-image img{
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+    }
+    .category-sub-title {
+        margin-top: 80px;
+    }
+    .contact-us-form {
+        left: 0px;
+        height: 500px;
+        top: 30px;
+    }
+
+    .contact-us-googal-map {
+        padding-left: 0px;
+    }
+
+    .map-form-section { 
+        margin-top: 400px; 
+    }
+
+    .we_would_love {
+        margin-top: 110px;
+    }
+
+    .counter-area.style-two {
+        padding: 45px 0;
+    }
+
+    .brand-thumb {
+        padding: 30px;
+    }
+
+    .whychooseus,
+    .ourclients {
+        margin-bottom: 0px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        margin: 20px 0;
+    }
+
+    .whychooseus h2,
+    .ourclients h2 {
+        font-size: 36px;
+    }
+
+    .whychooseus h2:before {
+        display: none;
+    }
+
+    .about-section .sec-title {
+        margin-bottom: 12px;
+    }
+
+    .sec-title h2 {
+        position: relative;
+        display: block;
+        line-height: 0.28em;
+        padding-top: 20px;
+    }
+
+    .sec-title h2:before {
+        display: none;
+    }
+
+    .about-section .content-column .inner-column {
+        /* position: relative; */
+        padding-left: 0px;
+        margin-top: 115px;
+        text-align: center;
+    }
+
+    .about-section .image-column .inner-column .author-desc {
+        position: absolute;
+        bottom: 16px;
+        z-index: 1;
+        background: #e41e26;
+        /* padding: 22px 20px; */
+        width: calc(100% - 80px);
+    }
+
+    /* .image5x5 {
+        height: 300px;
+        width: 300px;
+        position: relative;
+        left: 100px;
+        top: 30px;
+    } */
+    .card-typediv {
+        top: 410px;
+    }
+
+    .about-content {
+        margin: 100px 0px 20px;
+    }
+
+    .custom-container-style {
+        margin: auto;
+        padding: 640px 0 0;
+    }
+    .custom-container-style-2 {
+        margin: auto;
+        padding: 0;
+    }
+
+    .Applications {
+        margin-top: 250px;
+    }
+
+    .header-row {
+        padding: 0px 0px;
+    }
+
+    .for-desktop {
+        display: none;
+    }
+
+    .for-mobile {
+        display: block;
+    }
+
+
+    .for-mobile img {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .banner-desk {
+        display: none !important;
+    }
+
+    .banner-mob {
+        display: block !important;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .h1-style {
+        font-size: 18px;
+        text-align: center;
+        text-shadow: 0 0px 1px rgb(201 4 4);
+    }
+
+    .cust-h4 {
+        font-size: 1.2rem;
+    }
+
+    .OurProducts h2 {
+        font-size: 1.4rem;
+    }
+
+    .card-title {
+        font-size: 23px;
+        height: auto;
+    }
+
+    .readmore {
+        font-size: 13px;
+        padding: 8px 18px;
+        margin: 0px 0 23px 0;
+    }
+
+    .Applications::before {
+        margin-left: -163px;
+        margin-top: 83px;
+        height: 220px;
+        background-size: 339px;
+    }
+
+    .owl-nav,
+    .owl-dots {
+        display: none;
+    }
+
+    /* .row {
+        margin: 15px;
+    } */
+    .whyus {
+        margin: auto;
+        /* padding: 0; */
+    }
+
+    .whyus p {
+        text-align: center;
+    }
+
+    .card-text-CTA {
+        width: 100%;
+        text-align: center;
+    }
+
+    .call-email {
+        margin: 15px 0;
+    }
+
+
+    .my-logo {
+        width: 40%;
+        /* top: -10px;
+        left: -20px; */
+        top: 0px;
+        left: 0px;
+    }
+
+    .mobile-header-360 {
+        margin-top: -70px;
+    }
+
+    .inquire-now {
+        width: 86% !important;
+        margin-top: 8px !important;
+    }
+
+    /* .hero-text {
+        margin-top: 85% !important;
+        width: 96%!important;
+        margin-left: 5px !important;
+    }  */
+    .hero-text {
+        margin-top: 65% !important;
+        width: 96% !important;
+        margin-left: 5px !important;
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .feature-content {
+        margin-left: 10px;
+        width: 200%;
+    }
+
+    .banne-new {
+        height: 40vh !important;
+    }
+
+    .product-hero-content {
+        top: 35px !important;
+    }
+
+    /*.card-typediv {*/
+    /*    margin-top: -335px !important;*/
+    /*}*/
+
+    .product-desc-id-two {
+        margin-top: -200px !important;
+    }
+
+    .link-custom {
+        margin-top: -30px !important;
+    }
+
+    .mobile-email-link {
+        display: none !important;
+    }
+
+    .table-data::after,
+    .Applications::after {
+        display: none;
+    }
+
+    .icon-n {
+        height: auto;
+        width: 40px;
+    }
+
+    .productcard {
+        height: auto;
+        width: 100%;
+    }
+
+    .OurProducts h4 {
+        margin: 30px 0 0px;
+    }
+
+    .appcard {
+        height: auto;
+        width: 90%;
+    }
+
+    .productcard-item .card-text {
+        padding: 11px 55px;
+        text-align: center;
+    }
+
+    .product-hero-content .container {
+        margin-top: 65px;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+    .about-para {
+        margin: auto;
+        width: 100%;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-us-banner {
+        margin: 0px 0;
+    }
+    .product-image img{
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+    }
+    .category-sub-title {
+        margin-top: 80px;
+    }
+    .contact-us-form {
+        left: 0px;
+        height: 500px;
+        top: 30px;
+    }
+
+    .contact-us-googal-map {
+        padding-left: 0px;
+    }
+
+    .map-form-section { 
+        margin-top: 400px; 
+    }
+
+    .we_would_love {
+        margin-top: 110px;
+    }
+
+    .counter-area.style-two {
+        padding: 45px 0;
+    }
+
+    .brand-thumb {
+        padding: 30px;
+    }
+
+    .about-section .image-column .inner-column .author-desc h2 {
+        font-size: 19px;
+    }
+
+    .whychooseus,
+    .ourclients {
+        margin-bottom: 0px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        margin: 20px 0;
+    }
+
+    .whychooseus h2,
+    .ourclients h2 {
+        font-size: 34px;
+    }
+
+    .whychooseus h2:before {
+        display: none;
+    }
+
+    .about-section .sec-title {
+        margin-bottom: 12px;
+    }
+
+    .sec-title h2 {
+        position: relative;
+        display: block;
+        line-height: 0.28em;
+        padding-top: 20px;
+    }
+
+    .sec-title h2:before {
+        display: none;
+    }
+
+    .about-section .content-column .inner-column {
+        /* position: relative; */
+        padding-left: 0px;
+        margin-top: 115px;
+        text-align: center;
+    }
+
+    .about-section .image-column .inner-column .author-desc {
+        position: absolute;
+        bottom: 16px;
+        z-index: 1;
+        background: #e41e26;
+        padding: 22px 20px;
+        width: calc(100% - 80px);
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .about-content {
+        margin: 100px 0px 20px;
+    }
+
+    .hamburger-custom-style {
+        justify-content: end;
+    }
+
+    .hamburger-custom-style .toggler_icon_list {
+        /* margin-top: -117px; */
+    }
+
+    /*.successInEveryHardness_img{*/
+    /*    margin-top: 480px;*/
+    /*}*/
+    .card-typediv {
+        top: 410px;
+    }
+
+    .Applications {
+        margin-top: 15px;
+    }
+
+    .custom-container-style {
+        margin: auto;
+        padding: 640px 0 0;
+    }
+    .custom-container-style-2 {
+        margin: auto;
+        padding: 0;
+    }
+
+    .header-row {
+        padding: 0px 0px;
+    }
+
+    .for-desktop {
+        display: none;
+    }
+
+    .for-mobile {
+        display: block;
+    }
+
+    .for-mobile img {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .banner-desk {
+        display: none !important;
+    }
+
+    .banner-mob {
+        display: block !important;
+    }
+
+    .contact-us-one p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .h1-style {
+        font-size: 18px;
+        text-align: center;
+        text-shadow: 0 0px 1px rgb(201 4 4);
+    }
+
+    .cust-h4 {
+        font-size: 1.2rem;
+    }
+
+    .OurProducts h2 {
+        font-size: 1.4rem;
+    }
+
+    .card-title {
+        font-size: 23px;
+        height: auto;
+    }
+
+    .readmore {
+        font-size: 13px;
+        padding: 8px 18px;
+        margin: 0px 0 23px 0;
+    }
+
+    /* .Applications::before {
+        margin-left: -163px;
+        margin-top: 83px;
+        height: 220px;
+        background-size: 339px;
+    } */
+    .owl-nav,
+    .owl-dots {
+        display: none;
+    }
+
+    /* .row {
+        margin: 15px;
+    } */
+    .whyus {
+        margin: auto;
+        /* padding: 0; */
+    }
+
+    .whyus p {
+        text-align: center;
+    }
+
+    .card-text-CTA {
+        width: 100%;
+        text-align: center;
+    }
+
+    .call-email {
+        margin: 15px 0;
+    }
+
+
+    .my-logo {
+        width: 40%;
+        /* top: -10px;
+        left: -20px; */
+        top: 0px;
+        left: 0px;
+    }
+
+    .mobile-header-360 {
+        margin-top: -70px;
+    }
+
+    .inquire-now {
+        width: 86% !important;
+        margin-top: 8px !important;
+    }
+
+    .hero-text {
+        margin-top: 65% !important;
+        width: 96% !important;
+        margin-left: 5px !important;
+        text-align: center;
+    }
+
+    .feature-content {
+        margin-left: 10px;
+        width: 200%;
+    }
+
+    .banne-new {
+        height: 40vh !important;
+    }
+
+    .product-hero-content {
+        top: 35px !important;
+    }
+
+    /*.card-typediv {*/
+    /*    margin-top: -335px !important;*/
+    /*}*/
+
+    .product-desc-id-two {
+        margin-top: -200px !important;
+    }
+
+    .link-custom {
+        margin-top: -30px !important;
+    }
+
+    .mobile-email-link {
+        display: none !important;
+    }
+
+    /* .table-data::after, .Applications::after {
+        display: none;
+    } */
+    .icon-n {
+        height: auto;
+        width: 40px;
+    }
+
+    .productcard {
+        height: auto;
+        width: 100%;
+    }
+
+    .OurProducts h4 {
+        margin: 30px 0 0px;
+    }
+
+    .appcard {
+        height: auto;
+        width: 90%;
+    }
+
+    .productcard-item .card-text {
+        padding: 11px 55px;
+        text-align: center;
+    }
+
+    .product-hero-content .container {
+        margin-top: 65px;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+    .about-para {
+        margin: auto;
+        width: 100%;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .logo-hamburger button {
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about-us-banner {
+        margin: 0px 0;
+    }
+    .product-image img{
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+    }
+    .category-sub-title {
+        margin-top: 80px;
+    }
+    .contact-us-form {
+        left: 0px;
+        height: 500px;
+        top: 30px;
+    }
+
+    .contact-us-googal-map {
+        padding-left: 0px;
+    }
+
+    .map-form-section { 
+        margin-top: 400px; 
+    }
+
+    .we_would_love {
+        margin-top: 110px;
+    }
+
+    .counter-area.style-two {
+        padding: 45px 0;
+    }
+
+    .brand-thumb {
+        padding: 30px;
+    }
+
+    .about-section .image-column .inner-column .author-desc h2 {
+        font-size: 19px;
+    }
+
+    .whychooseus,
+    .ourclients {
+        margin-bottom: 0px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        margin: 20px 0;
+    }
+
+    .whychooseus h2,
+    .ourclients h2 {
+        font-size: 34px;
+    }
+
+    .whychooseus h2:before {
+        display: none;
+    }
+
+    .about-section .sec-title {
+        margin-bottom: 12px;
+    }
+
+    .sec-title h2 {
+        position: relative;
+        display: block;
+        line-height: 0.28em;
+        padding-top: 20px;
+    }
+
+    .sec-title h2:before {
+        display: none;
+    }
+
+    .about-section .content-column .inner-column {
+        /* position: relative; */
+        padding-left: 0px;
+        margin-top: 115px;
+        text-align: center;
+    }
+
+    .about-section .image-column .inner-column .author-desc {
+        position: absolute;
+        bottom: 16px;
+        z-index: 1;
+        background: #e41e26;
+        padding: 22px 20px;
+        width: calc(100% - 80px);
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .about-content {
+        margin: 100px 0px 20px;
+    }
+
+    .hamburger-custom-style {
+        justify-content: end;
+    }
+
+    .hamburger-custom-style .toggler_icon_list {
+        /* margin-top: -117px; */
+    }
+
+    /*.successInEveryHardness_img{*/
+    /*    margin-top: 480px;*/
+    /*}*/
+    .custom-container-style {
+        margin: auto;
+        padding: 640px 0 0;
+    }
+    .custom-container-style-2 {
+        margin: auto;
+        padding: 0;
+    }
+
+    .card-typediv {
+        top: 410px;
+    }
+
+    .Applications {
+        margin-top: 17px;
+    }
+
+    .header-row {
+        padding: 0px 0px;
+    }
+
+    .for-desktop {
+        display: none;
+    }
+
+    .for-mobile {
+        display: block;
+    }
+
+    .for-mobile img {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .banner-desk {
+        display: none !important;
+    }
+
+    .banner-mob {
+        display: block !important;
+    }
+
+    .contact-us-one p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .h1-style {
+        font-size: 18px;
+        text-align: center;
+        text-shadow: 0 0px 1px rgb(201 4 4);
+    }
+
+    .cust-h4 {
+        font-size: 1.2rem;
+    }
+
+    .OurProducts h2 {
+        font-size: 1.4rem;
+    }
+
+    .card-title {
+        font-size: 23px;
+        height: auto;
+    }
+
+    .readmore {
+        font-size: 13px;
+        padding: 8px 18px;
+        margin: 0px 0 23px 0;
+    }
+
+    /* .Applications::before {
+        margin-left: -163px;
+        margin-top: 83px;
+        height: 220px;
+        background-size: 339px;
+    } */
+    .owl-nav,
+    .owl-dots {
+        display: none;
+    }
+
+    /* .row {
+        margin: 15px;
+    } */
+    .whyus {
+        margin: auto;
+        /* padding: 0; */
+    }
+
+    .whyus p {
+        text-align: center;
+    }
+
+    .card-text-CTA {
+        width: 100%;
+        text-align: center;
+    }
+
+    .call-email {
+        margin: 15px 0;
+    }
+
+
+    .my-logo {
+        width: 40%;
+        /* top: -10px;
+        left: -20px; */
+        top: 0px;
+        left: 0px;
+    }
+
+    .mobile-header-360 {
+        margin-top: -70px;
+    }
+
+    .inquire-now {
+        width: 86% !important;
+        margin-top: 8px !important;
+    }
+
+    .hero-text {
+        margin-top: 65% !important;
+        width: 96% !important;
+        margin-left: 5px !important;
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .feature-content {
+        margin-left: 10px;
+        width: 200%;
+    }
+
+    .banne-new {
+        height: 40vh !important;
+    }
+
+    .product-hero-content {
+        top: 75px !important;
+    }
+
+    /*.card-typediv {*/
+    /*    margin-top: -335px !important;*/
+    /*}*/
+
+    .product-desc-id-two {
+        margin-top: -200px !important;
+    }
+
+    .link-custom {
+        margin-top: -30px !important;
+    }
+
+    .mobile-email-link {
+        display: none !important;
+    }
+
+    /* .table-data::after, .Applications::after {
+        display: none;
+    } */
+    .icon-n {
+        height: auto;
+        width: 40px;
+    }
+
+    .productcard {
+        height: auto;
+        width: 90%;
+    }
+
+    .OurProducts h4 {
+        margin: 30px 0 0px;
+    }
+
+    .appcard {
+        height: auto;
+        width: 90%;
+    }
+
+    .productcard-item .card-text {
+        padding: 15px;
+    }
+
+    .product-hero-content .container {
+        margin-top: 65px;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+    .about-para {
+        margin: auto;
+        width: 100%;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+
+    /*.custom-container{
+       margin-top: -210px;
+   }*/
+    /* .image-gallery, .table-data {
+    margin: 78px -95px!important;
+    text-align: center !important;
+  }*/
+    .logo-hamburger button {
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .about-us-banner {
+        margin: 0px 0;
+    }
+    .product-image img{
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+    }
+    .category-sub-title {
+        margin-top: 80px;
+    }
+    .contact-us-form {
+        left: 0px;
+        height: 500px;
+        top: 30px;
+    }
+
+    .contact-us-googal-map {
+        padding-left: 0px;
+    }
+
+    .map-form-section { 
+        margin-top: 400px; 
+    }
+
+    .counter-area.style-two {
+        padding: 45px 0;
+    }
+
+    .brand-thumb {
+        padding: 30px;
+    }
+
+    .about-section .image-column .inner-column .author-desc h2 {
+        font-size: 19px;
+    }
+
+    .whychooseus,
+    .ourclients {
+        margin-bottom: 0px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        margin: 20px 0;
+    }
+
+    .whychooseus h2,
+    .ourclients h2 {
+        font-size: 30px;
+    }
+
+    .whychooseus h2:before {
+        display: none;
+    }
+
+    .about-section .sec-title {
+        margin-bottom: 12px;
+    }
+
+    .sec-title h2 {
+        position: relative;
+        display: block;
+        line-height: 0.28em;
+        padding-top: 20px;
+    }
+
+    .sec-title h2:before {
+        display: none;
+    }
+
+    .about-section .content-column .inner-column {
+        /* position: relative; */
+        padding-left: 0px;
+        margin-top: 115px;
+        text-align: center;
+    }
+
+    .about-section .image-column .inner-column .author-desc {
+        position: absolute;
+        bottom: 16px;
+        z-index: 1;
+        background: #e41e26;
+        /* padding: 22px 20px; */
+        width: calc(100% - 80px);
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .hamburger-custom-style {
+        justify-content: end;
+    }
+
+    .hamburger-custom-style .toggler_icon_list {
+        /* margin-top: -117px; */
+    }
+
+    .mobile-email-link {
+        display: none !important;
+    }
+
+    .banner-desk {
+        display: block !important;
+    }
+
+    .custom-container-style {
+        margin: auto;
+        padding: 640px 0 0;
+    }
+    .custom-container-style-2 {
+        margin: auto;
+        padding: 0;
+    }
+
+    .card-typediv {
+        top: 410px;
+    }
+
+    .Applications {
+        margin-top: 17px;
+    }
+
+    .OurProducts h4 {
+        margin: 30px 0 0px;
+    }
+
+    .header-row {
+        padding: 0px 0px;
+    }
+
+    .for-desktop {
+        display: none;
+    }
+
+    .for-mobile {
+        display: block;
+    }
+
+    .for-mobile img {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .banner-desk {
+        display: none !important;
+    }
+
+    .banner-mob {
+        display: block !important;
+    }
+
+    .logo-hamburger button {
+        margin: 0px 10px;
+    }
+
+
+    /*.successInEveryHardness_img{*/
+    /*    margin-top: 480px;*/
+    /*}*/
+}
