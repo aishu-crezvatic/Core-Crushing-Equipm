@@ -533,9 +533,6 @@ include 'navbar.php';
         <!-- </div> -->
         <div>
 
-
-
-
         <?php } ?>
 
         <!-- cta -->
