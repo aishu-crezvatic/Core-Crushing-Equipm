@@ -5,7 +5,7 @@
     <?php
     // define("BASEURL", "http://192.168.1.35/corecrushing/");
     // define("BASEURL", "https://corecrushing.in/");
-    define("BASEURL", "https://localhost/corecrushing/");
+    define("BASEURL", "http://localhost/corecrushing/");
     // define("BASEURL", "https://labindiadigital.com/corecrushing/");
     ?>
     <meta charset="UTF-8">
@@ -47,6 +47,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lightgallery-bundle.min.css" rel="stylesheet">
+
     <!-- bootstrap pills -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <!-- Google Tag Manager -->

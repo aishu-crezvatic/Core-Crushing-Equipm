@@ -313,6 +313,8 @@ function topFunction() {
       });
   });
 </script>
+<script src="js/newApplication.js"></script>
+
 
 </body>
 

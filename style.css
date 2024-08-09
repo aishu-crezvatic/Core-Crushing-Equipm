@@ -1,3 +1,45 @@
+
+
+
+/* NEW APPLICATION  */
+.custom-container-banner .swiper-button-next,
+.swiper-rtl .swiper-button-prev,
+.swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 10px);
+    left: auto;
+    background-color: red !important;
+    border-radius: 100%;
+
+}
+
+.custom-container-banner .swiper-button-prev,
+.custom-container-banner .swiper-rtl .swiper-button-next {
+    background-color: red !important;
+    border-radius: 100%;
+}
+
+.custom-container-banner .swiper-button-next:after,
+.custom-container-banner .swiper-button-prev:after {
+    font-size: 15px !important;
+    font-weight: 900;
+    color: white;
+}
+
+.swiper2 .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+.swiper2{
+    /* overflow: hidden !important;
+    overflow-y: visible !important; */
+}
+
+.swiper3 .swiper-slide{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+/* end new application */
+
+
 .banner-desk {
     display: block !important;
 }
@@ -17,6 +59,12 @@ body {
     background-color: #D2AD77;
     padding: 33px !important;
 }
+
+.videocont .swiper-3d {
+    perspective: 600px !important;
+    background-color: transparent !important;
+    padding: 33px !important;
+}
 .swiper-slide img {
     /* display: block;
     width: 100%;
@@ -32,6 +80,9 @@ body {
     width: 100%;
     height: auto;
 }
+
+
+
 
 .Privacy_Policy a {
     color: #000;

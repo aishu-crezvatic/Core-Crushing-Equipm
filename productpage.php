@@ -7,8 +7,10 @@ include 'navbar.php';
 <body>
   <div class="container-fluid custom-container-banner">
     <div class="product-hero">
-      <img src="<?php echo BASEURL . $Prod_Banner[$id]['image'] ?>" class="d-block w-100 banne-new banner-desk" alt="product-banner" />
-      <img src="<?php echo BASEURL . $Prod_Banner[$id]['image-mob'] ?>" class="d-block w-100 banner-mob" alt="product-banner" />
+      <img src="<?php echo BASEURL . $Prod_Banner[$id]['image'] ?>" class="d-block w-100 banne-new banner-desk"
+        alt="product-banner" />
+      <img src="<?php echo BASEURL . $Prod_Banner[$id]['image-mob'] ?>" class="d-block w-100 banner-mob"
+        alt="product-banner" />
       <div class="product-hero-content">
         <div class="container">
           <div class="row align-items-center">
@@ -31,6 +33,8 @@ include 'navbar.php';
     </div>
     <!-- type tab -->
 
+
+
     <?php if ($id == 1) { ?>
 
       <div class="card p-3 card-typediv">
@@ -50,7 +54,8 @@ include 'navbar.php';
                 <div class="features-text-div">
                   <!-- <div class="row"> -->
                   <div class="feature-image">
-                    <img src="<?php echo BASEURL . 'images/Favicon-01.webp'; ?>" class="icon-n img-fluid" alt="product-banner">
+                    <img src="<?php echo BASEURL . 'images/Favicon-01.webp'; ?>" class="icon-n img-fluid"
+                      alt="product-banner">
                   </div>
                   <div class="feature-content">
                     <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
@@ -68,7 +73,8 @@ include 'navbar.php';
                 <div class="features-text-div">
                   <!-- <div class="row"> -->
                   <div class="feature-image">
-                    <img src="<?php echo BASEURL . 'images/Favicon-01.webp'; ?>" class="icon-n img-fluid" alt="product-banner">
+                    <img src="<?php echo BASEURL . 'images/Favicon-01.webp'; ?>" class="icon-n img-fluid"
+                      alt="product-banner">
                   </div>
                   <div class="feature-content">
                     <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
@@ -82,10 +88,13 @@ include 'navbar.php';
           </div>
         </div>
 
+
         <nav>
           <div class="nav nav-tabs mb-3 mt-5 typediv" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SH 200 Cone Crusher</button>
-            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">SH 400 Cone Crusher</button>
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+              type="button" role="tab" aria-controls="nav-home" aria-selected="true">SH 200 Cone Crusher</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+              role="tab" aria-controls="nav-profile" aria-selected="false">SH 400 Cone Crusher</button>
           </div>
         </nav>
         <div class="tab-content p-3 border bg-light" id="nav-tabContent">
@@ -101,7 +110,12 @@ include 'navbar.php';
                 </div>
                 <div class="col-md-8">
                   <h1>SH 200 Cone</h1>
-                  <p>The Core SH 200 Cone boasts cast top and bottom shells for enduring crushing loads, a hydraulically supported forged alloy main shaft assembly with push-button control, and specially designed mantle and concave profiles for consistent feed opening retention. Featuring anti-friction roller bearings, a 150kW to 200kw motor. Its all-roller bearing design ensures high load capacity and constant alignment, reducing frictional losses and enabling variable operational speeds. The built-in hydraulic rotary feed distributor optimizes material distribution for increased wear life and enhanced capacity.</p>
+                  <p>The Core SH 200 Cone boasts cast top and bottom shells for enduring crushing loads, a hydraulically
+                    supported forged alloy main shaft assembly with push-button control, and specially designed mantle and
+                    concave profiles for consistent feed opening retention. Featuring anti-friction roller bearings, a
+                    150kW to 200kw motor. Its all-roller bearing design ensures high load capacity and constant alignment,
+                    reducing frictional losses and enabling variable operational speeds. The built-in hydraulic rotary
+                    feed distributor optimizes material distribution for increased wear life and enhanced capacity.</p>
                 </div>
               </div>
               <div class="elementor-widget-container">
@@ -168,11 +182,13 @@ include 'navbar.php';
             </div>
           </div>
 
+
           <!-- For 400 -->
           <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 
             <!-- table -->
             <div class="table-data-sh">
+
               <div class="row">
                 <div class="col-md-4 text-center py-4">
                   <img src="<?php echo BASEURL . $successInEveryHardness[$id]['vimage2'] ?>" class="img-fluid" alt="">
@@ -180,7 +196,12 @@ include 'navbar.php';
                 </div>
                 <div class="col-md-8">
                   <h1>SH 400 Cone Crusher </h1>
-                  <p>The Core SH 400 Cone Crusher is built to withstand tough quarry and mining conditions. Featuring anti-friction roller bearings, a 37 kW motor, and a cartridge-type design for easy access to components, it offers enhanced crushing power and serviceability. With a compact, balanced design and no speed limitations, it ensures superior productivity and flexibility. Its hydraulically operated rotary feed distributor optimizes material distribution, while optional extras provide added customisation.</p>
+                  <p>The Core SH 400 Cone Crusher is built to withstand tough quarry and mining conditions. Featuring
+                    anti-friction roller bearings, a 37 kW motor, and a cartridge-type design for easy access to
+                    components, it offers enhanced crushing power and serviceability. With a compact, balanced design and
+                    no speed limitations, it ensures superior productivity and flexibility. Its hydraulically operated
+                    rotary feed distributor optimizes material distribution, while optional extras provide added
+                    customisation.</p>
                 </div>
               </div>
 
@@ -343,7 +364,7 @@ include 'navbar.php';
         </div>
       </div>
 
-        <?php } else { ?>
+    <?php } else { ?>
       <!-- type tab end-->
       <!-- Features -->
       <div class="container-fluid custom-container add-pad product-desc-id-two">
@@ -368,7 +389,8 @@ include 'navbar.php';
               <div class="features-text-div">
                 <!-- <div class="row"> -->
                 <div class="feature-image">
-                  <img src="<?php echo BASEURL . 'images/Favicon-01.webp'; ?>" class="icon-n img-fluid" alt="product-banner">
+                  <img src="<?php echo BASEURL . 'images/Favicon-01.webp'; ?>" class="icon-n img-fluid"
+                    alt="product-banner">
                 </div>
                 <div class="feature-content">
                   <h4><?php echo $successInEveryHardness[$id]['h' . $i] ?></h4>
@@ -380,6 +402,77 @@ include 'navbar.php';
           </div>
         </div>
       </div>
+
+
+      <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 10px;
+    }
+    .grid-item {
+      position: relative;
+    }
+    .grid-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+  </style>
+  <!-- LightGallery CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lightgallery-bundle.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="grid-container container" id="lightgallery">
+    <div class="grid-item">
+      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 1" class="grid-image">
+      </a>
+    </div>
+    <div class="grid-item ">
+      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
+      </a>
+    </div>
+    <div class="grid-item ">
+      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
+      </a>
+    </div>
+    <div class="grid-item ">
+      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
+      </a>
+    </div>
+    <div class="grid-item ">
+      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
+      </a>
+    </div>
+    <div class="grid-item ">
+      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
+      </a>
+    </div>
+   
+    <!-- Add more grid items as needed -->
+  </div>
+
+  <!-- LightGallery JS -->
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/lightgallery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/plugins/thumbnail/lg-thumbnail.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/plugins/fullscreen/lg-fullscreen.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      lightGallery(document.getElementById('lightgallery'), {
+        selector: '.lightgallery', // Ensure this selector matches your anchor tags
+        thumbnail: true,
+        fullScreen: true
+      });
+    });
+  </script>
       <!-- Table -->
       <?php include 'tables.php'; ?>
 
@@ -438,52 +531,62 @@ include 'navbar.php';
           <!-- <div class="swiper-pagination"></div> -->
         </div>
         <!-- </div> -->
-      <div>
+        <div>
 
 
 
 
-      <?php } ?>
+        <?php } ?>
 
-      <!-- cta -->
-      <?php include 'cta.php'; ?>
-      <!-- cta end -->
+        <!-- cta -->
+        <?php include 'cta.php'; ?>
+        <!-- cta end -->
 
-      <section class="container gallery text-center py-5" id="Our-products">
-        <h2 class="fw-bold applications section-title-prod_detail_v">Gallery</h2>
-        <div class="owl-carousel">
-          <div class="item ">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/HSF/HSF-1.webp' ?>" class="d-block w-100" alt="1" />
+        <section class="container gallery text-center py-5" id="Our-products">
+          <h2 class="fw-bold applications section-title-prod_detail_v">Gallery</h2>
+          <div class="owl-carousel">
+            <div class="item ">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/HSF/HSF-1.webp' ?>" class="d-block w-100"
+                alt="1" />
+            </div>
+            <div class="item">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/HSF/HSF-2.webp' ?>" class="d-block w-100"
+                alt="2" />
+            </div>
+            <div class="item ">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Jaw_Crusher/Jaw_Crusher-2.webp' ?>"
+                class="d-block w-100" alt="3" />
+            </div>
+            <div class="item ">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Jaw_Crusher/Jaw_Crusher-3.webp' ?>"
+                class="d-block w-100" alt="4" />
+            </div>
+            <div class="item">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Sander%20Cone/Sander-Cone-2.webp' ?>"
+                class="d-block w-100" alt="5" />
+            </div>
+            <div class="item ">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Sander%20Cone/Sander-Cone-5.webp' ?>"
+                class="d-block w-100" alt="6" />
+            </div>
+            <div class="item ">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Vibrating-screen/Vibrating-screen.webp' ?>"
+                class="d-block w-100" alt="7" />
+            </div>
+            <div class="item ">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Vibrating-screen/Vibrating-screen-2.webp' ?>"
+                class="d-block w-100" alt="8" />
+            </div>
+            <div class="item ">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Vibrating-screen/Vibrating-screen-2.webp' ?>"
+                class="d-block w-100" alt="9" />
+            </div>
+            <div class="item ">
+              <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/VSI/VSI-3.webp' ?>" class="d-block w-100"
+                alt="10" />
+            </div>
           </div>
-          <div class="item">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/HSF/HSF-2.webp' ?>" class="d-block w-100" alt="2" />
-          </div>
-          <div class="item ">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Jaw_Crusher/Jaw_Crusher-2.webp' ?>" class="d-block w-100" alt="3" />
-          </div>
-          <div class="item ">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Jaw_Crusher/Jaw_Crusher-3.webp' ?>" class="d-block w-100" alt="4" />
-          </div>
-          <div class="item">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Sander%20Cone/Sander-Cone-2.webp' ?>" class="d-block w-100" alt="5" />
-          </div>
-          <div class="item ">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Sander%20Cone/Sander-Cone-5.webp' ?>" class="d-block w-100" alt="6" />
-          </div>
-          <div class="item ">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Vibrating-screen/Vibrating-screen.webp' ?>" class="d-block w-100" alt="7" />
-          </div>
-          <div class="item ">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Vibrating-screen/Vibrating-screen-2.webp' ?>" class="d-block w-100" alt="8" />
-          </div>
-          <div class="item ">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/Vibrating-screen/Vibrating-screen-2.webp' ?>" class="d-block w-100" alt="9" />
-          </div>
-          <div class="item ">
-            <img src="<?php echo BASEURL . 'images/Gallary-Imge-300x300/VSI/VSI-3.webp' ?>" class="d-block w-100" alt="10" />
-          </div>
-        </div>
-      </section>
+        </section>
       </div>
       <!-- Footer-->
       <!-- Footer-->
@@ -519,11 +622,11 @@ include 'navbar.php';
         });
 
         // Pause Swiper autoplay on hover over video
-        document.querySelectorAll('.swiper-slide').forEach(function(slide) {
-          slide.addEventListener('mouseenter', function() {
+        document.querySelectorAll('.swiper-slide').forEach(function (slide) {
+          slide.addEventListener('mouseenter', function () {
             swiper.autoplay.stop();
           });
-          slide.addEventListener('mouseleave', function() {
+          slide.addEventListener('mouseleave', function () {
             swiper.autoplay.start();
           });
         });
@@ -534,7 +637,7 @@ include 'navbar.php';
       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
       <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
           $(".owl-carousel").owlCarousel({
             loop: true,
             margin: 10,
