@@ -46,8 +46,8 @@
                         <div class="flex items-center">
                             <img src="<?php echo BASEURL . 'images/logo.webp' ?>" alt="" class="h-10 me-5">
                         </div>
-                        <p class="text-white mt-6"><b>Mumbai OFFICE:</b> 104, Terminal 9, Vile Parle, Mumbai, Maharashtra</p>
-                        <p class="text-white mt-6"><b>BRANCH OFFICE:</b> 
+                        <p class="text-white mt-6"><b class="d-block">Mumbai OFFICE:</b> 104, Terminal 9, Vile Parle, Mumbai, Maharashtra</p>
+                        <p class="text-white mt-6"><b class="d-block">BRANCH OFFICE:</b> 
                             7-1-58, 304 B, The Concourse, 3rd Floor, Beside Amrutha Business Complex, Greenlands, Ameerpet, Hyderabad – 500016, Telangana, India.</p>
                             
                     </div>
@@ -77,8 +77,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
-                    <div class="flex justify-between items-center">
+                <!-- <div class="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center"> -->
+                    <div class="mt-5 sm:mt-12 d-flex justify-content-center">
                         <p class="text-sm text-gray-400 Privacy_Policy">
                             © Copyright 2024 corecrushing.in All rights reserved
                             <a href="<?php echo BASEURL . 'privacy-policy' ?>">Privacy Policy</a>
@@ -111,7 +111,7 @@
                             </svg>
                         </a>
                     </div> -->
-                </div>
+                <!-- </div> -->
             </div>
         </div>
     </div>

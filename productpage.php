@@ -307,6 +307,7 @@ include 'navbar.php';
 
         </div>
       </div>
+
       <!-- Video slider -->
       <div class="image-gallery-2">
         <h1 class="section-title-prod_detail_v">Video</h1>
@@ -376,6 +377,7 @@ include 'navbar.php';
         </div>
         <div class="row">
           <div class="col-md-4 text-center">
+            <!-- main image -->
             <img src="<?php echo BASEURL . $successInEveryHardness[$id]['vimage'] ?>" class="img-fluid" alt="">
           </div>
           <?php
@@ -405,138 +407,168 @@ include 'navbar.php';
 
 
       <style>
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 10px;
-      padding: 10px;
-    }
-    .grid-item {
-      position: relative;
-    }
-    .grid-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      cursor: pointer;
-    }
-  </style>
-  <!-- LightGallery CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lightgallery-bundle.min.css" rel="stylesheet">
-</head>
-<body>
-  <div class="grid-container container" id="lightgallery">
-    <div class="grid-item">
-      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
-        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 1" class="grid-image">
-      </a>
-    </div>
-    <div class="grid-item ">
-      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
-        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
-      </a>
-    </div>
-    <div class="grid-item ">
-      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
-        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
-      </a>
-    </div>
-    <div class="grid-item ">
-      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
-        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
-      </a>
-    </div>
-    <div class="grid-item ">
-      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
-        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
-      </a>
-    </div>
-    <div class="grid-item ">
-      <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
-        <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2" class="grid-image">
-      </a>
-    </div>
-   
-    <!-- Add more grid items as needed -->
-  </div>
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+          gap: 10px;
+          padding: 10px;
+        }
 
-  <!-- LightGallery JS -->
-  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/lightgallery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/plugins/thumbnail/lg-thumbnail.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/plugins/fullscreen/lg-fullscreen.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      lightGallery(document.getElementById('lightgallery'), {
-        selector: '.lightgallery', // Ensure this selector matches your anchor tags
-        thumbnail: true,
-        fullScreen: true
-      });
-    });
-  </script>
-      <!-- Table -->
-      <?php include 'tables.php'; ?>
+        .grid-item {
+          position: relative;
+        }
 
-      <!-- Video slider -->
-      <div class="image-gallery">
-        <h1 class="section-title-prod_detail_v">Video</h1>
-        <!-- <div class="container"> -->
-        <div class="swiper mySwiper2">
-          <div class="swiper-wrapper swiper-wrapper-custom w-50">
-            <div class="swiper-slide">
-              <a href="https://www.youtube.com/watch?v=nr37KBnv0HA" data-fancybox data-caption="Single image">
-                <img src="<?php echo BASEURL . 'images/youtube-thumb/link1.webp' ?>" />
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="https://www.youtube.com/watch?v=lS4Sr_myTNU" data-fancybox data-caption="Single image">
-                <img src="<?php echo BASEURL . 'images/youtube-thumb/link2.webp' ?>" />
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="https://www.youtube.com/watch?v=kfbngnvjyug" data-fancybox data-caption="Single image">
-                <img src="<?php echo BASEURL . 'images/youtube-thumb/link3.webp' ?>" />
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="https://www.youtube.com/watch?v=WMsM4iE-mEk" data-fancybox data-caption="Single image">
-                <img src="<?php echo BASEURL . 'images/youtube-thumb/link4.webp' ?>" />
-              </a>
-            </div>
+        .grid-image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          cursor: pointer;
+        }
+      </style>
 
-            <div class="swiper-slide">
-              <a href="https://www.youtube.com/watch?v=jCqsFQ89a9o" data-fancybox data-caption="Single image">
-                <img src="<?php echo BASEURL . 'images/youtube-thumb/link6.webp' ?>" />
-              </a>
-              <!-- <iframe data-fancybox width="560" height="315" src="https://www.youtube.com/embed/lS4Sr_myTNU?si=wTndd3UJP4aE-W92" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-            </div>
-            <div class="swiper-slide" YouTube_full-color_icon>
-              <a href="https://www.youtube.com/watch?v=szUBUL1mteM" data-fancybox data-caption="Single image">
-                <img src="<?php echo BASEURL . 'images/youtube-thumb/link7.webp' ?>" />
-              </a>
-              <!-- <iframe data-fancybox width="560" height="315" src="https://www.youtube.com/embed/kfbngnvjyug?si=LSEJ0JpsRRO7dINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-            </div>
 
-            <div class="swiper-slide">
-              <a href="https://www.youtube.com/watch?v=iGKjIUo3C-I" data-fancybox data-caption="Single image">
-                <img src="<?php echo BASEURL . 'images/youtube-thumb/link8.webp' ?>" />
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="https://www.youtube.com/watch?v=_729IWWC9zU" data-fancybox data-caption="Single image">
-                <img src="<?php echo BASEURL . 'images/youtube-thumb/link9.webp' ?>" />
-              </a>
-            </div>
+      <!-- LightGallery CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lightgallery-bundle.min.css" rel="stylesheet">
+      </head>
 
+      <body>
+        <!-- <div class="grid-container container" id="lightgallery">
+          <div class="grid-item">
+            <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+              <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 1"
+                class="grid-image">
+            </a>
           </div>
-          <!-- <div class="swiper-pagination"></div> -->
-        </div>
-        <!-- </div> -->
-        <div>
+          <div class="grid-item ">
+            <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+              <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2"
+                class="grid-image">
+            </a>
+          </div>
+          <div class="grid-item ">
+            <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+              <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2"
+                class="grid-image">
+            </a>
+          </div>
+          <div class="grid-item ">
+            <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+              <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2"
+                class="grid-image">
+            </a>
+          </div>
+          <div class="grid-item ">
+            <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+              <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2"
+                class="grid-image">
+            </a>
+          </div>
+          <div class="grid-item ">
+            <a class="lightgallery" href='<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>'>
+              <img src="<?php echo BASEURL . '/images/products/Jaw-Crushers-old.webp'; ?>" alt="Image 2"
+                class="grid-image">
+            </a>
+          </div>
+
+        </div> -->
+
+
+
+        <?php
+        if (isset($successInEveryHardness[$id]['grid']) && !empty($successInEveryHardness[$id]['grid'])): ?>
+          <div class="grid-container container" id="lightgallery">
+            <?php foreach ($successInEveryHardness[$id]['grid'] as $image): ?>
+              <div class="grid-item">
+                <a class="lightgallery" href="<?php echo BASEURL . '/' . $image; ?>">
+                  <img src="<?php echo BASEURL . '/' . $image; ?>" alt="Image" class="grid-image">
+                </a>
+              </div>
+            <?php endforeach; ?>
+          </div>
+          <?php
+        else: ?>
+          <!-- Optionally, display a message or leave the container empty -->
+          <p>No more images available.</p>
+        <?php endif; ?>
+
+        <!-- LightGallery JS -->
+        <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/lightgallery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/plugins/thumbnail/lg-thumbnail.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/plugins/fullscreen/lg-fullscreen.min.js"></script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            lightGallery(document.getElementById('lightgallery'), {
+              selector: '.lightgallery', // Ensure this selector matches your anchor tags
+              thumbnail: true,
+              fullScreen: true
+            });
+          });
+        </script>
+        <!-- Table -->
+        <?php include 'tables.php'; ?>
+
+        <!-- Video slider -->
+        <div class="image-gallery my-5">
+          <h1 class="section-title-prod_detail_v">Video</h1>
+          <!-- <div class="container"> -->
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper swiper-wrapper-custom w-50">
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=nr37KBnv0HA" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/youtube-thumb/link1.webp' ?>" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=lS4Sr_myTNU" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/youtube-thumb/link2.webp' ?>" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=kfbngnvjyug" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/youtube-thumb/link3.webp' ?>" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=WMsM4iE-mEk" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/youtube-thumb/link4.webp' ?>" />
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=jCqsFQ89a9o" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/youtube-thumb/link6.webp' ?>" />
+                </a>
+                <!-- <iframe data-fancybox width="560" height="315" src="https://www.youtube.com/embed/lS4Sr_myTNU?si=wTndd3UJP4aE-W92" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              </div>
+              <div class="swiper-slide" YouTube_full-color_icon>
+                <a href="https://www.youtube.com/watch?v=szUBUL1mteM" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/youtube-thumb/link7.webp' ?>" />
+                </a>
+                <!-- <iframe data-fancybox width="560" height="315" src="https://www.youtube.com/embed/kfbngnvjyug?si=LSEJ0JpsRRO7dINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              </div>
+
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=iGKjIUo3C-I" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/youtube-thumb/link8.webp' ?>" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=_729IWWC9zU" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/youtube-thumb/link9.webp' ?>" />
+                </a>
+              </div>
+
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+          <!-- </div> -->
 
         <?php } ?>
 
         <!-- cta -->
-        <?php include 'cta.php'; ?>
+        <div class="mt-5 pt-5">
+          <?php include 'cta.php'; ?>
+        </div>
         <!-- cta end -->
 
         <section class="container gallery text-center py-5" id="Our-products">
@@ -597,7 +629,7 @@ include 'navbar.php';
           effect: "coverflow",
           grabCursor: true,
           centeredSlides: true,
-          slidesPerView: 2, // Display 3 slides at a time
+          slidesPerView: 3, // Display 3 slides at a time
           spaceBetween: 0, // Adjust this value as needed for the desired space
           coverflowEffect: {
             rotate: 1,
@@ -615,6 +647,26 @@ include 'navbar.php';
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
+          },
+          breakpoints: {
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 0,
+            },
           },
         });
 

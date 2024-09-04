@@ -74,6 +74,7 @@
             '0' => array(
                 'successContent' => "Core Crushing Jaw Crushers: Engineered for Efficiency, Built for Durability.",
                 'vimage' => "images/leftsideproduct/Jaw_Crusher.webp",
+                'grid' => array('images/prod-gridImg/1.jpg','images/prod-gridImg/2.jpg','images/prod-gridImg/jaw3.jpg','images/prod-gridImg/jaw4.jpg','images/prod-gridImg/jaw5.jpg'),
                 'h1' => 'Automatic Wedge Adjustment',
                 'd1' => 'Hydraulic cylinders enable swift and effortless CSS/output size adjustment.',
 
@@ -136,6 +137,7 @@
             '2' => array(
                 'successContent' => "Revolutionizing Sand Production: Maximal Output, Minimal Power, Superior Quality.",
                 'vimage' => "images/leftsideproduct/Sander-Cone.webp",
+                'grid' => array('images/prod-gridImg/sanderCone1.jfif','images/prod-gridImg/sanderCone2.jfif','images/prod-gridImg/sanderCone3.jfif','images/prod-gridImg/sanderCone4.jfif','images/prod-gridImg/sanderCone5.jfif'),
                 'h1' => 'Superior Aggregate Shape:',
                 'd1' => 'Engineered to produce well-rounded aggregates with reduced flakiness for improved quality.
                 ',
@@ -183,6 +185,7 @@
             '3' => array(
                 'successContent' => "Optimized crusher design with high-grade steel rotor wears parts and tungsten carbide tips, balanced rotor for high-speed operation, bypass system for flexible plant layout, and oil lubrication panel for easy maintenance.",
                 'vimage' => "images/leftsideproduct/VSI_03.webp",
+                'grid' => array('images/prod-gridImg/vertical1.jpg','images/prod-gridImg/vertical2.jpg','images/prod-gridImg/vertical3.jpg','images/prod-gridImg/vertical4.jpg','images/prod-gridImg/vertical5.jpg'),
                 'h1' => 'High-Quality Rotor Components',
                 'd1' => 'Utilizes premium steel and tungsten carbide tips for enhanced durability and reduced wear costs.',
 
