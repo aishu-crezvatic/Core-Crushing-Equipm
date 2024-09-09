@@ -82,27 +82,50 @@ include 'navbar.php';
             <div class="">
                 <div class="swiper mySwiper2 bg-none">
                     <div class="swiper-wrapper swiper-wrapper-custom w-50">
-                        <!-- Video Slides -->
-                        <?php 
-                        $videos = [
-                            'nr37KBnv0HA' => 'link1.webp',
-                            'lS4Sr_myTNU' => 'link2.webp',
-                            'kfbngnvjyug' => 'link3.webp',
-                            'WMsM4iE-mEk' => 'link4.webp',
-                            'jCqsFQ89a9o' => 'link6.webp',
-                            'szUBUL1mteM' => 'link7.webp',
-                            'iGKjIUo3C-I' => 'link8.webp',
-                            '_729IWWC9zU' => 'link9.webp'
-                        ];
+                    <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=nr37KBnv0HA" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/YoutubeThumnail/link1.png' ?>"  class="rounded-3 shadow-lg"/>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=lS4Sr_myTNU" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/YoutubeThumnail/link 2-JUNE01.webp' ?>"  class="rounded-3 shadow-lg"/>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=kfbngnvjyug" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/YoutubeThumnail/link 3-03.png' ?>" class="rounded-3 shadow-lg" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=WMsM4iE-mEk" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/YoutubeThumnail/link 4.png' ?>"  class="rounded-3 shadow-lg"/>
+                </a>
+              </div>
 
-                        foreach ($videos as $videoId => $thumb) { ?>
-                            <div class="swiper-slide">
-                                <a href="https://www.youtube.com/watch?v=<?php echo $videoId; ?>" data-fancybox data-caption="Single image">
-                                    <img src="<?php echo BASEURL . 'images/youtube-thumb/' . $thumb; ?>" />
-                                </a>
-                            </div>
-                        <?php } ?>
-                    </div>
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=jCqsFQ89a9o" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/YoutubeThumnail/link6-JUNE.png' ?>"  class="rounded-3 shadow-lg"/>
+                </a>
+                <!-- <iframe data-fancybox width="560" height="315" src="https://www.youtube.com/embed/lS4Sr_myTNU?si=wTndd3UJP4aE-W92" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              </div>
+              <div class="swiper-slide" YouTube_full-color_icon>
+                <a href="https://www.youtube.com/watch?v=szUBUL1mteM" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/YoutubeThumnail/link7-JUNE.png' ?>"  class="rounded-3 shadow-lg"/>
+                </a>
+                <!-- <iframe data-fancybox width="560" height="315" src="https://www.youtube.com/embed/kfbngnvjyug?si=LSEJ0JpsRRO7dINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              </div>
+
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=iGKjIUo3C-I" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/YoutubeThumnail/link8-JUNE.png' ?>"  class="rounded-3 shadow-lg"/>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://www.youtube.com/watch?v=_729IWWC9zU" data-fancybox data-caption="Single image">
+                  <img src="<?php echo BASEURL . 'images/YoutubeThumnail/link9-10.webp' ?>"  class="rounded-3 shadow-lg"/>
+                </a>
+              </div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
